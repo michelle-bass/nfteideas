@@ -6,3 +6,7 @@ ideas-data_backup.js
 Thumbs.db
 desktop.ini
 *.log
+
+# Python
+__pycache__/
+*.pyc
