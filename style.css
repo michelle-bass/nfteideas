@@ -1,0 +1,371 @@
+/* 기후·재난 비즈니스 아이디어 포트폴리오 — 공통 스타일
+ * 빌드 지시서 §5 스타일 가이드 기준. NHD의 녹색/금색과 다른 따뜻한 종이 톤. */
+
+:root {
+  --bg: #FBF8F3;
+  --ink: #26221C;
+  --muted: #6E675C;
+  --card-bg: #ffffff;
+  --card-border: #E9E2D6;
+  --radius: 12px;
+
+  /* 카테고리 색 (§5) */
+  --c-heatwave: #E4572E;  --c-heatwave-bg: #FDEAE3;
+  --c-outage:   #4B4E9E;  --c-outage-bg:   #EAEAF6;
+  --c-flood:    #2278B5;  --c-flood-bg:    #E4F0F9;
+  --c-drought:  #C2872B;  --c-drought-bg:  #F8EFDE;
+
+  /* 배지 */
+  --badge-unverified-bg: #FFF4E5;  --badge-unverified-ink: #8B5A00;
+  --badge-estimate-bg:   #EEF2FF;  --badge-estimate-ink:   #3730A3;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Pretendard", "Pretendard Variable", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", system-ui, sans-serif;
+  line-height: 1.65;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+.wrap {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ---------- 헤더 ---------- */
+.site-header {
+  border-bottom: 1px solid var(--card-border);
+}
+.site-header .wrap {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 22px;
+}
+.site-title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.site-title a { text-decoration: none; }
+
+.header-actions {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.btn {
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: background .15s ease, border-color .15s ease;
+}
+.btn:hover { background: #F3EEE4; border-color: #D9CFBD; }
+
+/* ---------- 필터 ---------- */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 24px 0 6px;
+}
+.filter-tab {
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+  background: #fff;
+  border: 1px solid var(--card-border);
+  border-radius: 999px;
+  padding: 7px 16px;
+  cursor: pointer;
+  transition: all .15s ease;
+}
+.filter-tab:hover { border-color: #D9CFBD; }
+.filter-tab[aria-pressed="true"] {
+  color: #fff;
+  border-color: transparent;
+}
+.filter-tab[data-cat="all"][aria-pressed="true"]      { background: var(--ink); }
+.filter-tab[data-cat="heatwave"][aria-pressed="true"] { background: var(--c-heatwave); }
+.filter-tab[data-cat="outage"][aria-pressed="true"]   { background: var(--c-outage); }
+.filter-tab[data-cat="flood"][aria-pressed="true"]    { background: var(--c-flood); }
+.filter-tab[data-cat="drought"][aria-pressed="true"]  { background: var(--c-drought); }
+
+.filter-sep {
+  width: 1px;
+  align-self: stretch;
+  background: var(--card-border);
+  margin: 2px 4px;
+}
+.filter-toggle[aria-pressed="true"] { background: var(--ink); }
+
+/* ---------- 카드 그리드 ---------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 18px;
+  padding: 18px 0 40px;
+}
+.card {
+  position: relative;
+  display: block;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-left: 5px solid var(--cat-color, var(--card-border));
+  border-radius: var(--radius);
+  padding: 20px 20px 22px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(38, 34, 28, 0.10);
+}
+.card:focus-visible {
+  outline: 2px solid var(--cat-color, var(--ink));
+  outline-offset: 2px;
+}
+.card-cat {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 999px;
+  margin-bottom: 10px;
+}
+.card-title {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.card-subtitle {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+.card-student {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #F3EEE4;
+  border: 1px solid var(--card-border);
+  color: var(--ink);
+  padding: 3px 9px;
+  border-radius: 999px;
+  max-width: 45%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.empty {
+  color: var(--muted);
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* 카테고리 배지 색 (카드/상세 공통) */
+.cat-heatwave { background: var(--c-heatwave-bg); color: var(--c-heatwave); }
+.cat-outage   { background: var(--c-outage-bg);   color: var(--c-outage); }
+.cat-flood    { background: var(--c-flood-bg);    color: var(--c-flood); }
+.cat-drought  { background: var(--c-drought-bg);  color: var(--c-drought); }
+
+/* ---------- 하단 안내 ---------- */
+.site-note {
+  border-top: 1px solid var(--card-border);
+  color: var(--muted);
+  font-size: 13px;
+  padding: 18px 0 48px;
+}
+
+/* ---------- 상세 페이지 ---------- */
+.detail {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 24px 64px;
+}
+.back-link {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+  text-decoration: none;
+  padding: 22px 0 4px;
+}
+.back-link:hover { color: var(--ink); }
+
+.detail-head { padding: 8px 0 4px; }
+.detail-cat {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+}
+.detail-title {
+  margin: 0 0 8px;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+}
+.detail-subtitle {
+  margin: 0 0 10px;
+  font-size: 17px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+.detail-region {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+.detail-region::before { content: "📍 "; }
+
+.notice {
+  background: var(--badge-unverified-bg);
+  border: 1px solid #F0DDBB;
+  color: var(--badge-unverified-ink);
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 20px 0 6px;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.section { padding: 22px 0 4px; border-top: 1px solid var(--card-border); margin-top: 22px; }
+.section:first-of-type { border-top: none; margin-top: 8px; }
+.section h2 {
+  margin: 0 0 10px;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  text-transform: none;
+}
+.section p { margin: 0; }
+.section ul { margin: 0; padding-left: 20px; }
+.section li { margin: 4px 0; }
+
+/* 인라인 배지 */
+.badge-estimate {
+  display: inline;
+  background: var(--badge-estimate-bg);
+  color: var(--badge-estimate-ink);
+  font-weight: 600;
+  font-size: 0.92em;
+  padding: 1px 6px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+.badge-unverified {
+  display: inline-block;
+  background: var(--badge-unverified-bg);
+  color: var(--badge-unverified-ink);
+  font-weight: 700;
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-left: 6px;
+  white-space: nowrap;
+}
+.refmark {
+  font-size: 0.72em;
+  vertical-align: super;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--muted);
+  padding: 0 1px;
+}
+.refmark:hover { color: var(--ink); }
+
+/* 참고문헌 */
+.refs { list-style: decimal; padding-left: 22px; }
+.refs li { margin: 8px 0; font-size: 14px; line-height: 1.5; }
+.refs a { color: #1f5e8c; text-decoration: underline; text-underline-offset: 2px; word-break: break-word; }
+.refs .ref-text { color: var(--ink); }
+
+/* 연관 아이디어 */
+.related-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.related-list a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  background: #fff;
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 7px 12px;
+}
+.related-list a:hover { background: #F3EEE4; }
+
+/* 교사 메모 */
+.notes {
+  background: #fff;
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 18px 18px 20px;
+  margin-top: 22px;
+}
+.notes h2 { margin-top: 0; }
+.notes label { display: block; font-size: 13px; font-weight: 700; color: var(--muted); margin: 8px 0 4px; }
+.notes input[type="text"], .notes textarea {
+  width: 100%;
+  font: inherit;
+  font-size: 15px;
+  color: var(--ink);
+  background: var(--bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 9px 11px;
+  resize: vertical;
+}
+.notes textarea { min-height: 110px; }
+.notes .save-state { font-size: 12px; color: var(--muted); margin-top: 8px; min-height: 16px; }
+
+/* ---------- 모바일 ---------- */
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px; }
+  .detail { padding-left: 16px; padding-right: 16px; }
+  .grid { grid-template-columns: 1fr; }
+  .site-title { font-size: 24px; }
+  .detail-title { font-size: 23px; }
+  .site-header .wrap { padding-top: 28px; }
+}
+
+/* ---------- 인쇄 ---------- */
+@media print {
+  body { background: #fff; }
+  .header-actions, .filters, .notes, .back-link, .site-note { display: none !important; }
+  .card:hover { transform: none; box-shadow: none; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 11px; color: #555; word-break: break-all; }
+  .refmark::after { content: none; }
+}

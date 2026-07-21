@@ -1,0 +1,42 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>기후·재난 비즈니스 아이디어 포트폴리오</title>
+<meta name="description" content="기후·재난 대응 비즈니스 아이디어 포트폴리오 — 폭염·정전·홍수·가뭄">
+<meta property="og:type" content="website">
+<meta property="og:title" content="기후·재난 비즈니스 아이디어 포트폴리오">
+<meta property="og:description" content="폭염·정전·홍수·가뭄 대응 비즈니스 아이디어 30선">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%A1%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="style.css">
+
+<header class="site-header">
+  <div class="wrap">
+    <h1 class="site-title"><a href="index.html">기후·재난 비즈니스 아이디어 포트폴리오</a></h1>
+    <div class="header-actions">
+      <button type="button" class="btn" id="export-btn">메모 내보내기</button>
+      <button type="button" class="btn" id="import-btn">메모 가져오기</button>
+      <input type="file" id="import-file" accept="application/json,.json" hidden>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="filters" id="filters" aria-label="카테고리 필터">
+    <button type="button" class="filter-tab" data-cat="all"      aria-pressed="true">전체</button>
+    <button type="button" class="filter-tab" data-cat="heatwave" aria-pressed="false">폭염</button>
+    <button type="button" class="filter-tab" data-cat="outage"   aria-pressed="false">정전</button>
+    <button type="button" class="filter-tab" data-cat="flood"    aria-pressed="false">홍수</button>
+    <button type="button" class="filter-tab" data-cat="drought"  aria-pressed="false">가뭄</button>
+    <span class="filter-sep" aria-hidden="true"></span>
+    <button type="button" class="filter-tab filter-toggle" id="assigned-toggle" aria-pressed="false">👤 배정됨만 보기</button>
+  </nav>
+
+  <section class="grid" id="grid" aria-label="아이디어 목록"></section>
+</main>
+
+<footer class="wrap">
+  <p class="site-note">메모는 이 브라우저에만 저장됩니다. 다른 기기와 공유하려면 내보내기/가져오기를 사용하세요.</p>
+</footer>
+
+<script src="ideas-data.js"></script>
+<script src="app.js"></script>
