@@ -1,6 +1,9 @@
 # 원본 데이터의 로컬 백업 (배포에 불필요)
 ideas-data_backup.js
 
+# 개인 작업 기록 (로컬 전용)
+작업기록.md
+
 # OS / 편집기
 .DS_Store
 Thumbs.db
