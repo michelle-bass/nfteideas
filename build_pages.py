@@ -143,6 +143,7 @@ def section(title, body):
 
 PAGE = '''<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
 <title>{title_esc} · 기후·재난 비즈니스 아이디어 포트폴리오</title>
 <meta name="description" content="{cat} · {title_attr}">
 <meta property="og:type" content="article">
