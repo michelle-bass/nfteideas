@@ -965,4 +965,221 @@ window.IDEAS = [
     { q: "In one sentence, describe your business innovation", a: "A wall-mounted salt-and-sky water maker for those who cannot join the drought migration - measured in caregiver hours saved, not just liters." }
   ]
 },
+{
+  id: "P9", category: "outage",
+  title: "정전 비상 냉장 키트 \"Cold Backup\"",
+  subtitle: "냉장고가 1년에 수십 번 죽는 나라에서, 한 번도 켜진 적 없는 냉장고를 판다 — zeer pot의 재포지셔닝",
+  region: "지역 출발형: 나이지리아 북부(카노 등 건조 사바나)",
+  concept: "나이지리아는 국가 전력망 붕괴가 일상이라 냉장고를 보유한 가구조차 예고 없는 정전으로 냉장 식품을 반복해서 잃는다. 이 키트는 이중 토기(pot-in-pot)+젖은 모래의 증발냉각 저장고를 '가전의 대체재'가 아니라 '정전 비상 프로토콜'로 재포지셔닝한 것이다: ① 현지 도공 발주 토기 2개+모래 ② 그림 중심의 '정전 시작 5분 행동 카드'(냉장고에서 무엇을 먼저 옮기고 먼저 소비할지) ③ 습도별 성능 안내. 지역 재료 근거가 특별하다 — 카노는 1990년대 Mohammed Bah Abba가 pot-in-pot을 개발·보급한 바로 그 지역으로(Rolex Award 수상), 토기 공급망의 실존이 역사로 증명된 곳이다.",
+  science: "증발냉각: 젖은 모래층의 수분이 외벽 토기를 통해 증발하며 잠열을 빼앗아 내부 온도를 낮춘다. 고온건조할수록 효율이 높고, 습한 기후에서는 급락한다 — 건조 사바나(카노)라는 지역 선정이 곧 기술 조건이다.",
+  numbers: "정전의 빈도(검증): 나이지리아 전력망은 2010년~2022년 6월 사이 최소 222회의 부분·전체 붕괴를 기록했고(NERC 데이터)[1], 2024-25년에도 12회 이상이 추가됐으며, 세계은행은 정전이 나이지리아 경제에 연 290억 달러(GDP의 약 10%)의 손실을 입힌다고 추정한다[2]. 성능(동일 원리 zeer pot 실증, 앞선 검증 재사용): 고온건조 기후에서 내부를 주변보다 최대 약 12°C 낮추고 토마토 보존을 2일에서 20일로 연장, 채소 약 12kg 수용, 전통 제작비 2달러 미만[3][4]. 수익 구조(전체 추정·원문서 표기 유지): 원가 $3.00(토기 세트 $2.50+카드 $0.50, 물가 반영 유도) → 판매가 $6.00(추정) → 마진 50%. ※현지 도공 견적으로 교체 필요. ※'그리드 사용자가 전체 시간의 약 40%를 전기 없이 보낸다'는 원문 주장은 이번 검증에서 확인 못함(송배전 손실 40%와 혼동 소지) — 사용 금지, 222회·$29B로 대체.",
+  economics: "고객은 냉장고를 보유했지만 정전이 잦은 도시·근교 가구와 냉음료·채소 소상인. 냉장고를 대체하는 게 아니라 '정전 순간의 백업 프로토콜'로 파는 것이 포지셔닝의 전부다 — 가전 구매력과 무관하게 팔리고, ERRC로는 전기·압축기 제거, 가격 1/100 수준 감소, 행동 지침 증가, '비상 프로토콜로서의 냉장' 카테고리 창조.",
+  checks: ["증발냉각은 건조 기후 전제 — 습한 남부(라고스 등) 성능 급락, 지역 한계 명시 필수", "Mitticool(인도, 50L ₹10,000~11,000) 등 상용 선행 존재 — '완제품이 아니라 키트+프로토콜'인 이유 방어 준비", "원조 지역(카노)의 현재 pot-in-pot 보급률·중단 원인 현지 조사", "토기 원가 현지 견적으로 교체(현재 전체 추정)", "가지 3일→27일 등 원문서의 개별 수치(TIME 2001 인용)는 미확인 — 검증된 12°C·2→20일 수치 사용", "P4(얼음 은행)·H11(Yakhchal)·H12(진열대) 배정 시 지역·대회 겹침 관리"],
+  references: [
+    { label: "TheCable — 나이지리아 그리드 222회 붕괴 (2010~2022.6, NERC 데이터)", url: "https://www.thecable.ng/report-nigerias-national-grid-suffered-222-system-collapses-in-12-years/", verified: true },
+    { label: "Punch — 그리드 붕괴 위기 해설 (222회+12회, 세계은행 연 $29B 손실)", url: "https://punchng.com/nigerias-incessant-grid-collapse-crisis/", verified: true },
+    { label: "Appropedia — Zeer pot 설계·성능 (최대 12°C 강하)", url: "https://www.appropedia.org/Zeer_pot_refrigeration_(design)", verified: true },
+    { label: "Engineering for Change — Zeer pot 평가 (토마토 2→20일, 12kg, <$2)", url: "https://www.engineeringforchange.org/solutions/product/zeer-pot/", verified: true }
+  ],
+  related: ["P4", "H11", "H12"],
+  diagram: { steps: ["문제: 예고 없는 전국 정전(12년간 222회+)으로 냉장 식품 반복 손실", "핵심: 이중 토기+젖은 모래의 증발냉각 + '정전 5분 행동 카드' 프로토콜", "결과: 전기 없이 채소를 수 주 보존, 정전 손실을 일상 대비로 전환"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] One number rewired our thinking: Nigeria's grid collapsed at least 222 times in twelve years - so we stopped asking how to keep the fridge on, and asked what should replace it when it dies." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Urban and peri-urban Nigerian households that own a fridge but lose its contents to constant blackouts, plus small vendors selling cold drinks and vegetables - starting in Kano's dry savanna." },
+    { q: "What customer need or want are you trying to meet?", a: "They need food to survive an unannounced outage - and a clear plan for the first five minutes when the power dies." },
+    { q: "What is your innovative idea?", a: "A blackout backup kit, not an appliance: two locally-made clay pots with wet sand between them (pot-in-pot evaporative cooling), a picture-based '5-minute blackout action card', and humidity-based performance guidance." },
+    { q: "How would your idea work?", a: "Water evaporating from the sand layer pulls heat out of the inner pot; verified trials show interiors up to ~12 degrees C below ambient, extending tomato life from 2 to 20 days with ~12 kg capacity - no electricity, ever." },
+    { q: "How does your idea meet the challenge?", a: "It converts a climate-stressed, outage-battered food system into a resilient one at near-zero energy (nearest mapping: CBT Tech Climate Solutions, SDG 13; MetLife SDG 3 also fits via food safety). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "When the grid dies - which costs Nigeria an estimated $29 billion a year - the kit's cooling never stops, because it never started; the action card tells the family exactly what to move and eat first." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Mitticool sells a $120-class clay refrigerator; Kano's own pot-in-pot history proves the pots exist locally for a few dollars - our difference is the packaging: kit plus blackout protocol, sold as emergency preparedness rather than an appliance. (Pricing figures are assumptions pending local potter quotes.)" },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a micro-enterprise commissioning local potters (reviving Kano's own pot-in-pot supply chain) and selling kits through markets and vendor networks." },
+    { q: "In one sentence, describe your business innovation", a: "The fridge dies 222 times a decade here. Ours never turns off - because it was never on." }
+  ]
+},
+{
+  id: "H12", category: "heatwave",
+  title: "노점상용 테라코타 증발냉각 진열대",
+  subtitle: "지구에서 가장 더운 도시의 노점에서, 상품을 보여주면서 동시에 지키는 무전력 콜드 진열",
+  region: "지역 출발형: 파키스탄 신드주(자코바바드·라르카나 일대)",
+  concept: "냉장 설비 없는 청과·음료 노점상은 폭염기에 상품을 그대로 잃는다. 얕은 이중벽 테라코타 트레이(벽 사이 젖은 모래)로 만든 진열대는 닫힌 냉장고와 달리 상품을 보여주면서 시원하게 유지한다 — 노점의 본질(진열이 곧 영업)을 해치지 않는 냉각이다. 신드는 전통 토기 산지라 재료 조달이 현지에서 가능하다(※구체 공방·단가 현지 확인 필요). 폭염 피크가 몬순 전 건조기와 겹쳐 증발냉각 효율이 최대인 시기와 일치하는 것이 지역 선정의 근거다.",
+  science: "P9와 동일한 증발냉각 원리를 개방형 진열대에 적용한 것. 단 개방형은 밀폐형(pot-in-pot)보다 냉기 손실이 커 성능이 낮을 것이므로, 온도계 2개와 대조군만으로 가능한 실측 실험이 이 카드의 핵심 증거이자 학생 과제다.",
+  numbers: "문제의 크기(검증): 자코바바드는 2024년 5월 28일 52°C를 기록하며 여름 최고치에 도달했고(모헨조다로·나와브샤 동일)[1], 2024년 파키스탄 폭염으로 신드를 중심으로 568명 이상이 사망하고 7,905명 이상이 입원했으며 가축 133마리가 폐사했다[2]. 자코바바드는 물 부족과 정전이 폭염과 겹치는, '기후변화 최전선'으로 불리는 도시다[3]. 성능 참고치는 동일 원리 zeer pot의 검증 수치(최대 12°C 강하, 토마토 2→20일)[4] — 단 개방형 실측으로 대체해야 함. 회수 논리(예시 추정): 진열대 $8, 토마토 $0.50/kg 가정 시 폐기 16kg 회피면 회수, 주 2kg 폐기 감소 가정 시 8주 내 회수. ※노점상 일 폐기율은 인터뷰로 확보. ※원문의 '얼음 블록 구매 일상(Reuters)'은 이번 검증에서 사진 보도로 직접 확인 못함 — 사용 시 재확인.",
+  economics: "ERRC: 전기·압축기 제거, 진입 가격을 상용 토기 냉장고(Mitticool ₹10,000~11,000) 대비 대폭 감소(※목표가 산정), 상품 가시성·신선 유지 시간 증가, '노점 전용 무전력 콜드 진열'이라는 콜드체인 말단 카테고리 창조 — Blue Ocean 주력. 진열대 가격이 상인의 폐기 손실 몇 주치인지가 설득의 전부다.",
+  checks: ["개방형 진열대의 실제 온도 강하 폭 실측(밀폐형 데이터로 대체 불가 — 카드의 성패)", "Mitticool 선제 언급 후 '보관 vs 진열' 차이로 방어", "습한 몬순기(7~9월) 효과 감소 — 계절 한계 명시", "신드 토기 공방·단가 현지 확인", "노점상 일 폐기율 인터뷰 확보", "H10(Khus 스크린)과 증발냉각 메커니즘 겹침 — 배정 시 대회 분리"],
+  references: [
+    { label: "The News (파키스탄) — 2024-05-28 자코바바드 52°C 기록", url: "https://www.thenews.com.pk/print/1194474-intense-heatwave-virtually-incinerates-vegetation", verified: true },
+    { label: "Wikipedia — 2024 Pakistan heat wave (568+ 사망, 7,905+ 입원, 가축 133)", url: "https://en.wikipedia.org/wiki/2024_Pakistan_heat_wave", verified: true },
+    { label: "Al Jazeera — 자코바바드: 물 부족·정전이 폭염과 겹치는 최전선 도시", url: "https://www.aljazeera.com/news/2022/5/16/water-crisis-power-cuts-worsen-misery-in-pakistans-hottest-city", verified: true },
+    { label: "Engineering for Change — Zeer pot 성능 (동일 원리 참고치)", url: "https://www.engineeringforchange.org/solutions/product/zeer-pot/", verified: true }
+  ],
+  related: ["H10", "P9"],
+  diagram: { steps: ["문제: 세계 최고 수준 폭염 도시의 노점상이 냉장 없이 상품을 잃음", "핵심: 이중벽 테라코타 트레이+젖은 모래 — 보여주면서 식히는 개방형 증발냉각", "결과: 폐기 감소·얼음 구매비 절감, 몇 주치 폐기 손실로 진열대 값 회수"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] Jacobabad hit 52 degrees Celsius in May 2024 - and its vegetable vendors still had to display their produce in that heat. That contradiction, selling versus preserving, is the problem we fell for." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Street vendors selling vegetables, fruit, and drinks by the day in upper Sindh (Jacobabad, Larkana) - cities without refrigeration where heat directly destroys inventory." },
+    { q: "What customer need or want are you trying to meet?", a: "They need produce to stay sellable through a 50-degree day while remaining visible to buyers - a closed fridge kills the display that is their storefront." },
+    { q: "What is your innovative idea?", a: "A shallow double-walled terracotta display tray with wet sand between the walls: an open evaporative-cooling stand that shows the goods and cools them at once." },
+    { q: "How would your idea work?", a: "The same physics as pot-in-pot cooling (verified interiors up to ~12 degrees C below ambient in dry heat), applied as an open tray; because open designs lose more cool air, our own two-thermometer controlled measurement is the core evidence a student produces." },
+    { q: "How does your idea meet the challenge?", a: "The 2024 Sindh heatwave killed 568+ people and struck hardest exactly in the dry pre-monsoon window - when evaporative cooling works best; matching a zero-electricity technology to that window is climate adaptation (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "A vendor's stand pays for itself in avoided spoilage: at an assumed $8 stand and $0.50/kg tomatoes, avoiding ~16 kg of waste covers the cost - roughly eight weeks at 2 kg/week saved (assumptions to be replaced by vendor interviews)." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Mitticool sells closed clay refrigerators for households at ₹10,000+; nothing serves the vendor's display problem - our category is 'cold display for street stalls', the last meter of the cold chain, at a fraction of the price." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a micro-manufacturer commissioning local Sindh potteries and selling stands directly to vendors and market associations." },
+    { q: "In one sentence, describe your business innovation", a: "In the world's hottest city, our display stand sells the vegetables - and saves them - at the same time." }
+  ]
+},
+{
+  id: "F9", category: "flood",
+  title: "침입종 부레옥잠 뗏목 텃밭 이전 사업 \"Weed to Feed\"",
+  subtitle: "물고기를 빼앗은 잡초가 이제 식량을 기른다 — 방글라데시 dhap 기술의 빅토리아호 이전",
+  region: "지역 출발형: 케냐 키수무·빅토리아호 연안",
+  concept: "빅토리아호 연안 주민은 두 개의 재난을 동시에 겪는다: 침입종 부레옥잠이 어장을 막고 물속 산소를 고갈시켜 어획이 줄었고, 2020년 기록적 수위 상승으로 농경지가 침수됐다. 이 사업은 방글라데시의 dhap(부레옥잠 위에 대나무를 얹어 만드는 부유 재배 베드, FAO 세계중요농업유산) 기술을 현지화해, 문제(무한정 무료인 부레옥잠)를 인프라(홍수에도 뜨는 무토양 농장)로 바꾼다. 제품은 ① 제작 키트(대나무 프레임+매뉴얼) ② NGO·카운티 정부 대상 제작 워크숍(교육 서비스)의 택일 또는 병행 — 파는 것은 기술이 아니라 이전·교육·키트화다.",
+  science: "부레옥잠·수초를 겹겹이 쌓아 부력과 유기질 배지를 동시에 만드는 무토양 부유 재배. 방글라데시에서 몬순 한 철에 뗏목당 2~3회 작기를 돌리고, 철이 끝나면 뗏목을 해체해 퇴비로 재활용하는 순환 구조다(※빅토리아호의 수질·조류 조건에서 그대로 작동하는지 검증 필요 — 방글라데시 담수 습지와 조건 차이).",
+  numbers: "침입종(검증): 케냐 수역의 부레옥잠은 어선 진수를 막고 수중 산소를 고갈시키며, 2023년 연구는 케냐 호수들의 부레옥잠 침입이 어업·운송·관광에 연 1.5억~3.5억 달러의 손실을 입힌다고 추정했다[1]. 홍수(검증): 2019년부터의 기록적 강우로 2020년 빅토리아호 수위가 13.4m에 도달해 1964년 기록을 깼고[2], 케냐·우간다에서 20만 명 이상이 실향했으며[3], 키수무 카운티에서만 3만 2천 명이 실향했다(냔도 일대 가옥 침수·농지 파괴)[3]. 기술 신뢰(검증): dhap은 FAO가 2015년 세계중요농업유산(GIAHS)으로 등재한 공인 기후 적응 사례다[4]. ※원문의 '부레옥잠 17,000ha(호수 면적 5%)'와 '어획 5,000→2,500톤'은 이번 검증에서 원출처 미확인(피복 면적은 계절 변동이 큼 — 최근 보도는 특정 만 1,000ha 수준) — 사용하지 말고 연 손실액으로 대체. ※뗏목당 수확량·키수무 대나무 시세·현지 채소 시세 빈칸.",
+  economics: "고객: 침수 반복 지대(냔도 등)의 호숫가 가구(키트), 지역 NGO·카운티 정부(워크숍 B2B). 제도권 수요 근거: 키수무에는 부레옥잠 관리·활용에 대규모 국제 프로그램이 투입된 이력이 있다(※UN $700만 프로그램은 원출처 확인 필요). 수확물 판매는 주 수익이 아니라 고객 편익으로 계산한다. 원료가 무료(제거 자체가 공익)라 원가 구조가 이례적으로 좋다.",
+  checks: ["'원조 지역에선 무료 전통 기술' 심사 질문 — '기술이 아니라 이전·교육·키트화 판매'로 방어 준비", "빅토리아호 수질·조류 조건에서 dhap 작동 여부(방글라데시와 조건 차이) 검증", "부레옥잠 계절풍 이동 — 원료 접근성의 계절 변동", "키수무 대나무 시세·뗏목당 수확량·채소 시세 확보", "UN $700만 프로그램 등 개별 사업 이력 원출처 확인", "F8(나이지리아)과 홍수 카테고리 내 배정 균형 확인"],
+  references: [
+    { label: "AP(Washington Times 게재) — 케냐 호수 부레옥잠 연 $150M~350M 손실 (2023 연구)", url: "https://www.washingtontimes.com/news/2025/jan/19/popular-kenyan-lake-invasive-water-hyacinth-threat/", verified: true },
+    { label: "ReliefWeb — 빅토리아호 2020 수위 13.4m, 1964년 기록 경신 (LVBC)", url: "https://reliefweb.int/report/kenya/floods-record-high-lake-victoria-expose-need-water-cooperation", verified: true },
+    { label: "Nation — 케냐·우간다 20만+ 실향, 키수무 32,000명 (냔도 침수)", url: "https://nation.africa/kenya/news/Lake-Victoria-water-levels-exceed-record-mark/1056-5560150-w6l3urz/index.html", verified: true },
+    { label: "FAO — 방글라데시 Floating Garden, 2015 GIAHS 등재 공식 페이지", url: "https://www.fao.org/giahs/giahs-around-the-world/bangladesh-floating-garden-agricultural-practices/en", verified: true }
+  ],
+  related: ["F5", "F1"],
+  diagram: { steps: ["문제: 부레옥잠이 어장을 막고(연 $1.5~3.5억 손실), 홍수가 농지를 삼킴(2020년 20만+ 실향)", "핵심: 부레옥잠+대나무로 만드는 dhap 부유 재배 베드 — 문제가 곧 원료이자 인프라", "결과: 침수기에도 유지되는 무토양 농장, 제거된 잡초는 작기 후 퇴비로 순환"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] The same lake community loses fish to a weed and farmland to floods - and Bangladesh solved both with the weed itself, centuries ago. Carrying that solution across the Indian Ocean felt like the assignment." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Lakeside households in repeatedly flooded zones (Nyando and similar) buying kits, and the NGOs and county governments buying training workshops - the institutions already funding hyacinth management." },
+    { q: "What customer need or want are you trying to meet?", a: "Households need land that floods cannot take - growing space that rises with the water - and institutions need a hyacinth response that produces value instead of only disposal cost." },
+    { q: "What is your innovative idea?", a: "A technology-transfer business: localized dhap floating-garden kits (bamboo frame + manual) and hands-on construction workshops, turning Lake Victoria's free, endless hyacinth into farm infrastructure." },
+    { q: "How would your idea work?", a: "Layers of harvested hyacinth over a bamboo frame form a floating organic bed (about 1 m wide, 10-15 m long in the Bangladeshi original) that grows vegetables through the flood season and is composted afterward - a cycle FAO designated a Globally Important Agricultural Heritage System in 2015." },
+    { q: "How does your idea meet the challenge?", a: "It is a double environmental solution - harvesting an invasive species and replacing flood-lost farmland with soil-free floating plots (GENIUS environmental-link statement; nearest NFTE mapping CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Hyacinth costs Kenyan lake communities an estimated $150-350 million a year while the 2020 record flood (13.4 m, breaking 1964) displaced over 200,000 people - the raft answers both: every kilogram built into a bed is a kilogram removed from the water, on a farm that floats." },
+    { q: "What makes your idea different or better than existing solutions?", a: "In Bangladesh dhap is free tradition; our product is the transfer - localization, training, and kit standardization for a lake where nobody practices it - the same reason FAO certifies it as heritage worth spreading. (Per-raft yield and bamboo costs are still blank pending local pricing.)" },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a social enterprise selling kits to households and paid workshops to NGOs and county governments; harvest sales count as customer benefit, not our revenue." },
+    { q: "In one sentence, describe your business innovation", a: "The weed that took their fish is now growing their food." }
+  ]
+},
+{
+  id: "H13", category: "heatwave",
+  title: "접촉 화상 안전 시스템 (서모크로믹 경보 + 표면 온도 지도)",
+  subtitle: "만지기 전엔 모르는 70°C 표면 — 보이지 않는 위험을 색으로 보이게 하고, 재고, 고친다",
+  region: "일반형 (폭염 지역 공통: 미국 남서부·중동·남아시아·한국 여름)",
+  concept: "여름 햇볕 아래 미끄럼틀·금속 난간·아스팔트·차량 안전벨트 버클은 피부 화상을 일으키는 온도까지 올라가지만, 만져보기 전에는 위험을 알 수 없다. 이 시스템은 3층으로 구성된다: ① 임계 온도에서 색이 변하는 서모크로믹 경고 데칼 라인(놀이터용/차량·카시트용/유모차·휠체어용 — 특히 손으로 밀 수밖에 없는 휠체어 금속 림과 아이가 직접 채우는 카시트 버클은 '취약계층+피할 수 없는 접촉'이라 후크가 강하다) ② 적외선 온도계로 동네 표면 온도를 실측·지도화하는 B2G 서비스(학생의 실측 데이터가 곧 발표 자료이자 스티커 임계값 설계 근거) ③ 상습 고온 표면의 차열 코팅 시공 업셀.",
+  science: "피부 접촉 화상은 온도×시간의 함수다: 미국화상협회 기준 표면 60°C(140°F)에서 3초 만에 2도 화상, 5초면 3도 화상이 가능하다[4]. 서모크로믹 안료는 특정 온도에서 가역적으로 색이 변하는 상용 소재로, 임계값 선정(예: 50°C 경고/60°C 위험)이 학생의 설계 과제가 된다.",
+  numbers: "실측 근거(검증): 텍사스텍 연구에서 햇빛 아래 플라스틱 미끄럼틀이 71.7°C에 도달했고(같은 소재의 화상 임계: 60°C에서 1분, 74°C에서 5초, 77°C에서 3초), 나무 그늘에서는 43.9°C로 떨어졌다[1]. 시드니 10개 놀이터 실측에서는 인조잔디 84.5°C 등 표면 온도가 접촉 화상 임계를 빈번히 초과했다[2]. 미 CPSC는 2001~2008년 약 30건의 놀이터 열화상 사고를 집계했고, 기온 23°C(74°F)인 날에도 플라스틱 미끄럼틀로 2도 화상이 발생했다고 공식 문서에 기록했다[3]. 애리조나 화상센터 등록 연구는 여름 노면(아스팔트 평균 68°C, 최고 71°C) 접촉 화상 입원이 실재하는 임상 현상임을 보여준다[5].",
+  economics: "지불 주체가 셋: 부모(차량·유모차용 소모품 데칼), 학교·지자체(놀이터 데칼+표면 지도 B2G), 시설 관리자(차열 코팅 시공). 데칼은 저가 소모품이라 반복 수익, 지도는 서비스, 코팅은 업셀 — 스티커 한 장이 아니라 '측정→경고→개선'의 시스템으로 파는 것이 확장성의 근거다.",
+  checks: ["서모크로믹 안료의 임계 온도 정확도·자외선 내구성(퇴색) 실측", "제품 라인별 임계값 설계(놀이터 vs 차량 내부)", "국내 놀이터 화상 사고 통계 확보 시 강화(현재 미국·호주 근거)", "차열 코팅의 성능·단가 조사(H9 쿨루프 계열 참고)"],
+  references: [
+    { label: "ScienceDaily/Texas Tech — 놀이터 표면 71.7°C 실측, 화상 임계(60°C/1분, 74°C/5초, 77°C/3초), 그늘 효과", url: "https://www.sciencedaily.com/releases/2015/11/151111172514.htm", verified: true },
+    { label: "Building and Environment (시드니) — 놀이터 표면 최고 84.5°C, 화상 임계 빈번 초과", url: "https://www.sciencedirect.com/science/article/pii/S0360132322007314", verified: true },
+    { label: "미 CPSC 공식 문서 — 놀이터 열화상 사고 집계, 23°C 날에도 2도 화상 사례", url: "https://www.cpsc.gov/s3fs-public/3200.pdf", verified: true },
+    { label: "Burn and Reconstructive Centers of America — 미국화상협회 기준 60°C 표면 3초 2도/5초 3도 화상", url: "https://burncenters.com/community/playground-safety-tips-from-brca/", verified: true },
+    { label: "PMC — 애리조나 노면 접촉 화상 등록 연구 (아스팔트 평균 68°C)", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6819531/", verified: true }
+  ],
+  related: ["H8", "H9"],
+  diagram: { steps: ["문제: 여름 표면(미끄럼틀 71.7°C, 아스팔트 68°C)은 만지기 전엔 위험을 알 수 없음", "핵심: 임계 온도에서 색이 변하는 데칼 + 적외선 실측 표면 지도 + 차열 코팅", "결과: 3초 만에 생기는 2도 화상을 '보이는 위험'으로 바꿔 사전 회피"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] A slide can hit 71.7 degrees Celsius while the air is only 41 - and a child finds out with their skin. That gap between what we feel coming and what surfaces actually are is the problem that hooked us." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Parents of young children (car-seat buckles, strollers), wheelchair users who must grip sun-heated metal rims, and the schools and municipalities that manage playgrounds and public spaces." },
+    { q: "What customer need or want are you trying to meet?", a: "They need to see a burn-hot surface before touching it - and facility managers need to know which of their surfaces cross the danger line, and when." },
+    { q: "What is your innovative idea?", a: "A three-layer contact-burn safety system: thermochromic warning decals that change color at set temperatures (playground, vehicle, stroller/wheelchair lines), an infrared surface-temperature mapping service for cities, and heat-shield coating for chronic hotspots." },
+    { q: "How would your idea work?", a: "Thermochromic pigments switch color reversibly at chosen thresholds; students set those thresholds from burn science - at a 60-degree surface, skin sustains a second-degree burn in about 3 seconds - and validate them with their own infrared measurements." },
+    { q: "How does your idea meet the challenge?", a: "Contact burns are a direct, growing consequence of urban heat: Sydney measurements found playground surfaces frequently above skin-burn thresholds, and Arizona burn centers admit patients from pavement contact every summer (nearest mapping: CBT Tech Climate Solutions, SDG 13; MetLife SDG 3 fits equally via injury prevention). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "A parent glances at the decal before the child climbs; a wheelchair user checks the rim strip before gripping; a city gets a map of which equipment needs shade or coating - the invisible hazard becomes a visible, managed one." },
+    { q: "What makes your idea different or better than existing solutions?", a: "The US CPSC documents playground thermal burns even on 23-degree days, yet the standard response is a generic 'hot surface' sign; our decal reports the actual current state of the actual surface, and the measurement service turns one sticker into a city-scale safety program." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a product company selling decal lines to consumers and mapping/coating services to schools and municipalities (B2G)." },
+    { q: "In one sentence, describe your business innovation", a: "A burn you can see coming: our decals turn red before a child's skin finds the 70-degree slide the hard way." }
+  ]
+},
+{
+  id: "H14", category: "heatwave",
+  title: "창틀 야간 환기 모듈",
+  subtitle: "창은 잠긴 채로 — 밤의 시원한 공기와 아침의 맑은 공기만 들이는 자동 환기 댐퍼",
+  region: "일반형 (한국 모듈: 대청마루의 '밤바람 들이기' 자동화)",
+  concept: "밤 외기가 실내보다 시원해도 방범·비·벌레 걱정으로 창을 열고 자기 어렵다. 이 제품은 창문 자체가 아니라 창틀 한 칸에 끼우는 전용 환기 모듈만 자동 개폐한다: 사람이 통과할 수 없는 고정 그릴 안쪽에서 단열 루버만 움직이고(방범), 루버를 어닝창처럼 바깥 아래로 기울여 빗물이 구조적으로 못 들어오며 우적 센서 감지 시 즉시 폐쇄(비), 정전 시 스프링으로 자동 닫힘(fail-safe). 제어 로직: 외기가 실내보다 2°C 이상 낮을 때만 개방, 비·강풍·미세먼지 나쁨이면 폐쇄, 새벽 목표온도 도달 시 폐쇄. 냉방 절감 장치이자 수면 환기 장치라는 이중 정체성이 핵심이다.",
+  science: "야간 환기(night purge)는 건물에 축적된 낮의 열을 시원한 밤 공기로 배출하는 표준 패시브 냉방 전략이다. 두 번째 근거는 공기질: 닫힌 침실은 밤새 CO₂가 축적되어 수면의 질을 떨어뜨린다는 것이 실측 연구로 확인되어 있다.",
+  numbers: "침실 CO₂(검증): 덴마크 실험에서 창·문을 닫고 잔 침실의 4일 평균 CO₂는 2,585ppm, 창을 열면 660ppm이었다(Strøm-Tejsen et al.)[1]. DTU 연구진의 기준으로 1,150ppm을 넘으면 수면의 질이, 2,600ppm을 넘으면 수면과 다음 날 수행 능력까지 저하된다[2]. 덴마크 현장 조사에서도 창·문을 모두 닫았을 때 주관적 수면 질 평가가 유의하게 낮았다[3]. 즉 창을 닫고 자는 보통의 침실은 '수면 저하 구간'에서 자고 있는 셈이다. 냉방 절감폭 실측은 시제품 과제(H2의 PCM 재응고를 돕는 짝꿍 제품 — 밤에 실내를 식혀야 PCM이 굳는다).",
+  economics: "지불 동기가 둘이다: 전기료(밤에 공짜 냉기로 축열을 배출해 다음 날 냉방 시작점을 낮춤)와 잠(CO₂ 관리). 에어컨·공기청정기와 달리 '창문을 잠근 채 환기한다'는 새 카테고리로, 방범 걱정이 큰 1인 가구·반지하·저층 세대가 1차 시장이다.",
+  checks: ["모듈 크기 대비 실제 환기량(ACH)·냉각 효과 실측", "방충·소음(루버 개폐음) 설계", "기존 창호 규격 다양성에 대한 장착 호환성", "우적 센서·스프링 폐쇄 fail-safe의 신뢰성 시험"],
+  references: [
+    { label: "ASHRAE 1837-RP 리뷰 (Taylor & Francis) — 창 개폐별 침실 CO₂ 2,585 vs 660ppm", url: "https://www.tandfonline.com/doi/full/10.1080/23744731.2025.2531317", verified: true },
+    { label: "EurekAlert/DTU — CO₂ 1,150ppm 초과 시 수면 질, 2,600ppm 초과 시 다음 날 수행까지 저하", url: "https://www.eurekalert.org/news-releases/988687", verified: true },
+    { label: "Building and Environment — 덴마크 침실 환기·수면 질 현장 연구", url: "https://www.sciencedirect.com/science/article/abs/pii/S0360132322007879", verified: true }
+  ],
+  related: ["H2", "H1"],
+  diagram: { steps: ["문제: 밤 공기는 시원한데 방범·비 걱정으로 창을 못 열고, 닫힌 침실은 CO₂ 2,500ppm대까지 축적", "핵심: 고정 그릴 안쪽 단열 루버만 자동 개폐 — 외기가 2°C 이상 시원할 때만, 비·정전 시 자동 폐쇄", "결과: 잠긴 창으로 야간 냉각과 수면 환기를 동시에 — 다음 날 냉방 시작점이 낮아짐"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] We measured our own bedroom: the night air outside was five degrees cooler than inside, and we still slept with the window locked. Designing the thing that resolves that absurdity became the project." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Households that keep windows locked at night - single-person homes, ground-floor and semi-basement units, families with small children - in any city with cool nights and hot days." },
+    { q: "What customer need or want are you trying to meet?", a: "They want the free cool of the night and fresh air for sleep, without accepting the burglary, rain, and insect risks of an open window." },
+    { q: "What is your innovative idea?", a: "A window-frame ventilation module: an insulated louver set behind a fixed pass-proof grille that opens automatically only when outdoor air is usefully cooler, tilts outward-down so rain physically cannot enter, closes on a rain sensor, and spring-closes on power failure." },
+    { q: "How would your idea work?", a: "A controller compares indoor and outdoor temperature (open only at a 2-degree advantage), checks rain, wind, and fine-dust levels, and shuts at the morning target temperature - night-purge cooling plus CO2 ventilation in one small dampered opening." },
+    { q: "How does your idea meet the challenge?", a: "Night ventilation is a textbook passive-cooling strategy that cuts next-day cooling demand - climate action at the bedroom scale (CBT Tech Climate Solutions, SDG 13; a MetLife SDG 3 framing fits via sleep health). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Closed bedrooms average about 2,585 ppm CO2 versus 660 ppm with a window open, and sleep quality measurably drops above 1,150 ppm - this module keeps sleepers under the threshold while the window stays locked." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Smart windows automate the whole sash - inheriting every security and rain problem; trickle vents are passive and tiny; our module is the middle path: too small to enter, smart enough to open only when the physics pays, and fail-safe closed." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a hardware startup selling retrofit modules through window installers and online, with landlords of small units as a B2B channel." },
+    { q: "In one sentence, describe your business innovation", a: "A window that never opens - only breathes: it lets the cool night in and locks everything else out." }
+  ]
+},
+{
+  id: "D6", category: "drought",
+  title: "스마트 올라 (Smart Olla)",
+  subtitle: "4천 년 된 무전력 점적 관개 토기에, 리필 시점과 배치 설계라는 두 가지 눈을 달다",
+  region: "지역 출발형: 북아프리카·중동·건조지 소농 (원리 원산: 중국·스페인·북아프리카)",
+  concept: "올라(olla)는 무유약 다공성 토기를 목만 내놓고 작물 옆에 묻고 물을 채워두는 수천 년 된 관개 전통이다. 물이 그냥 새는 게 아니라 토양 수분 장력이 항아리 벽을 통해 물을 빨아내는 자가 조절 구조라, 흙이 마르면 나가고 젖으면 멈춘다 — 전기·밸브 없는 점적 관개다. 전통의 실사용 약점 셋을 스마트 층이 정확히 겨냥한다: ① 묻혀 있어 언제 비었는지 모름 → 무전원 뜨개 수위 표시 막대 또는 초저가 센서 캡(리필 알림) ② 작물·토양별 개수·간격을 감으로 정함 → 면적·작물 입력 시 배치를 계산해주는 앱 ③ 기공이 막혀 성능이 서서히 떨어짐 → 막힘 진단과 교체 구독(소모품 수익). D1(하이드로젤 캡슐)이 '발아'를 지킨다면 올라는 '생육'을 지킨다 — 가뭄 카테고리 안에서 역할이 겹치지 않는다.",
+  science: "구동력은 토양 수분 장력(matric potential): 마른 흙이 만드는 부압이 토기 미세 기공을 통해 물을 끌어내고, 흙이 젖으면 압력 차가 사라져 유출이 멈춘다. 표면 관수와 달리 증발·유출 손실이 구조적으로 거의 없고 뿌리가 항아리를 감싸며 깊게 자란다.",
+  numbers: "물 절감(검증): Bainbridge의 연구(Agricultural Water Management 2001)는 매몰 토기 관개가 표면 관수 대비 물 사용을 50~70% 줄인다고 보고했고[1], 애리조나대 협동확장 자료도 재래식 물뿌리개 대비 60~70% 절수를 인용한다[2]. 케냐 Bogoria호 2013년 비교 실험(Kefa et al.)에서는 고랑(furrow) 관개 대비 물 절약이 옥수수 97.1%·토마토 97.8%에 달했고, 물 단위당 수확량이 옥수수 +32.2%·토마토 +43.7% 증가했다[1]. 에티오피아에서는 토기 관개 토마토 수확이 표면 관개보다 50% 높았다는 보고도 있다[3].",
+  economics: "토기는 현지 도공이 만들 수 있는 초저가 하드웨어(P9와 같은 공급망 논리)이고, 수익은 표시 캡·앱·교체 구독에서 나온다. 절수율이 문헌으로 확보되어 있어 '물값·급수 노동 대비 회수'를 숫자로 피치할 수 있다.",
+  checks: ["센서 캡 단가와 무전원 표시 막대의 신뢰성 비교(저가 우선)", "현지 토기 소성 온도(1,000°C 이하 다공성 유지) 품질 관리", "작물별 배치 간격 데이터 확보(앱 계산 근거)", "막힘 진단 방법(유출 속도 측정) 표준화"],
+  references: [
+    { label: "EcoMENA — Bainbridge 올라 개관 + 케냐 2013 실험 (97% 절수, 물당 수량 +32~44%)", url: "https://www.ecomena.org/promise-of-olla-irrigation/", verified: true },
+    { label: "애리조나대 협동확장 az1911 — 올라 관개 60~70% 절수", url: "https://extension.arizona.edu/sites/default/files/2024-08/az1911-2021.pdf", verified: true },
+    { label: "Poterie Jamet 자료 페이지 — Daka 50~70% 절수·에티오피아 토마토 +50% (Bainbridge·Kefa 인용)", url: "https://www.poterie-jamet.com/en/our-products/ollas-oyas-irrigation/efficiency-of-ollas-jamet/", verified: true }
+  ],
+  related: ["D1", "H5", "P9"],
+  diagram: { steps: ["문제: 건조지 소농의 표면 관수는 증발·유출로 물 대부분을 잃음", "핵심: 매몰 토기의 수분 장력 자가 조절 + 수위 표시·배치 계산·교체 구독의 스마트 층", "결과: 물 50~70% 절감(고랑 대비 최대 97%)과 리필 노동 감소를 동시에"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] A pot buried 4,000 years ago waters plants more efficiently than most modern drip systems - it just can't tell you when it's empty. Giving an ancient device its missing voice felt like the perfect kind of innovation." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Smallholder farmers and home growers in water-scarce regions - North Africa, the Middle East, and drylands where wells are distant and water is bought or carried." },
+    { q: "What customer need or want are you trying to meet?", a: "They need irrigation that wastes almost nothing, needs no electricity, and doesn't demand daily labor - plus certainty about when to refill and how many pots a plot needs." },
+    { q: "What is your innovative idea?", a: "A smart olla: the traditional unglazed buried pot, upgraded with a zero-power float indicator (or ultra-cheap sensor cap) for refill alerts, an app that computes pot count and spacing per crop and area, and a clog-check-and-replace subscription." },
+    { q: "How would your idea work?", a: "Soil moisture tension self-regulates the flow - dry soil pulls water through the clay pores, wet soil stops it - so water leaves only when plants need it; the smart layer fixes the tradition's three blind spots: empty pots, guesswork spacing, and silent clogging." },
+    { q: "How does your idea meet the challenge?", a: "Cutting agricultural water use 50-70% with a zero-energy device is drought adaptation at its purest (CBT Tech Climate Solutions, SDG 13; core benefit also maps to SDG 6). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Verified trials show 50-70% water savings versus surface watering - up to 97% versus furrow irrigation in Kenya, with 32-44% more yield per unit of water - and the refill indicator converts daily checking into a weekly glance." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Drip irrigation needs pumps, filters, and clean pressurized water; plain ollas are cheap but blind. We keep the pot's zero-energy physics and sell exactly what it lacks: visibility, layout math, and maintenance - through local potters, like the pot itself." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a social enterprise commissioning local potteries and earning on indicator caps, the layout app, and replacement subscriptions." },
+    { q: "In one sentence, describe your business innovation", a: "A 4,000-year-old clay pot that waters plants only when they're thirsty - we just taught it to say when it's empty." }
+  ]
+},
+{
+  id: "D7", category: "drought",
+  title: "Zai 피트 내비 (Zai Pit Navigator)",
+  subtitle: "구덩이는 전통, 위치는 위성 — '사막을 멈춘 남자'의 기법에 물이 모이는 지점을 알려주다",
+  region: "지역 출발형: 사헬 (부르키나파소·니제르·말리)",
+  concept: "zai는 사헬의 딱딱하게 굳은 불모지에 폭 15~50cm 구덩이를 파고 퇴비를 넣어, 빗물 유출수와 양분을 한 점에 모으는 전통 집수 농법이다(demi-lune는 반달형 둑 버전). 부르키나파소의 Yacouba Sawadogo가 이 기법을 개량해 사막화된 땅에 40ha의 숲을 만들어 '사막을 멈춘 남자'로 UNEP 지구챔피언(2020)이 된, 서사가 이미 완성된 기술이다. 효과는 구덩이의 위치와 규격에 민감한데 현재는 감으로 판다 — 이 사업은 두 가지를 판다: ① 위성 지형(DEM)의 경사·유수 집적(flow accumulation) 분석으로 '비가 오면 물이 모이는 지점'을 표시한 굴착 지도(스마트폰 없는 농가를 위해 인쇄 지도+현장 말뚝 병행) ② 치수를 일정하게 만드는 규격 굴착 템플릿 도구. F1(홍수 마지막 1마일)의 가뭄판 — 공개 데이터를 현장 행동으로 번역하는 계열이다.",
+  science: "유수 집적 분석은 수치표고모델(DEM)에서 각 지점으로 흘러드는 상류 면적을 계산하는 표준 GIS 기법으로, 공개 위성 DEM과 오픈소스 도구로 학생 수준에서 재현 가능하다. zai의 농학적 원리는 경화 토양의 유출수를 국소 포집해 침투를 만들고, 퇴비가 흰개미를 유인해 토양 구조를 여는 것이다.",
+  numbers: "효과(검증): UNEP에 따르면 zai 구덩이는 작물 수확량을 최대 500%까지 늘렸고[1][2], zai 등 토양수분 보전 기법은 부르키나파소에서 약 300만 명의 식량 안보를 개선하고 가구 총소득을 평균 18~24% 높였으며, 600만 ha의 토지 황폐화를 되돌리고 약 2억 그루의 나무를 자라게 했다[3]. Sawadogo의 지역에서는 농가의 약 95%가 zai를 쓴다[1]. 규격(검증): 전통 zai는 폭 15~50cm·깊이 5~15cm·간격 약 80cm[4] — 템플릿 도구의 설계 근거. 제도권 수요(검증): 사헬 횡단 조림 사업 Great Green Wall 계열 프로그램이 zai·half-moon을 공식 복원 기법으로 채택하고 있다[5].",
+  economics: "고객은 개별 농가가 아니라 GGW 계열 프로그램·조림 NGO·지방정부다 — 이들은 이미 zai에 예산을 쓰고 있고, 우리는 그 효과를 높이는 지도·도구를 판다. 지도는 한 번 만들어 마을 단위로 복제되고, 템플릿은 저가 하드웨어 반복 판매다.",
+  checks: ["공개 DEM 해상도(30m급)가 구덩이 배치에 충분한지 검증 — 필요 시 드론 보완", "'물이 모이는 지점' 예측의 현장 정확도 파일럿(강우 후 실측 대조)", "수확 +500%는 UNEP 인용 상한값 — 조건별 편차 명시", "현지 파트너(GGW 실행 기관) 접점 — '왜 한국 학생이?' 답변 준비"],
+  references: [
+    { label: "UNEP Champions of the Earth — Yacouba Sawadogo (2020 수상, 지역 농가 95% 채택)", url: "https://www.unep.org/championsofearth/laureates/2020/yacouba-sawadogo", verified: true },
+    { label: "World Economic Forum — zai 수확량 최대 500% 증가 (UNEP 인용), 40ha 숲", url: "https://www.weforum.org/stories/2021/04/burkina-faso-forest-restoration/", verified: true },
+    { label: "Heinrich Böll Stiftung — 300만 명 식량안보, 소득 +18~24%, 600만 ha, 2억 그루", url: "https://eu.boell.org/en/SoilAtlas-regreening-Sahara-desert", verified: true },
+    { label: "Wikipedia — Zaï 규격 (폭 15~50cm, 깊이 5~15cm, 간격 80cm)", url: "https://en.wikipedia.org/wiki/Za%C3%AF", verified: true },
+    { label: "UNEP — Great Green Wall 프로그램의 zai·half-moon 채택", url: "https://www.unep.org/news-and-stories/story/green-wall-promote-peace-and-restore-nature-africas-sahel-region", verified: true }
+  ],
+  related: ["F1", "D3", "D1"],
+  diagram: { steps: ["문제: zai의 효과는 위치·규격에 민감한데 농가는 감으로 파고, 프로그램은 효과 편차를 겪음", "핵심: 위성 DEM 유수 집적 분석으로 굴착 지도 제작(인쇄+말뚝) + 규격 굴착 템플릿", "결과: 같은 노동으로 더 많은 물을 모으는 구덩이 — 검증된 전통 기법의 수율을 데이터로 끌어올림"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] One farmer with a hoe stopped the desert and won a UN award for it - and the technique still depends on guessing where to dig. Giving that guess a satellite's eyes felt like the most respectful possible upgrade." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "The institutions already funding zai at scale - Great Green Wall-affiliated programs, reforestation NGOs, and local governments in Burkina Faso, Niger, and Mali - with farming households as end users." },
+    { q: "What customer need or want are you trying to meet?", a: "Programs need consistent results from a technique whose yield depends heavily on pit placement and dimensions; farmers need to know where their labor captures the most water." },
+    { q: "What is your innovative idea?", a: "A two-product kit: satellite-terrain 'dig-here' maps (flow-accumulation analysis printed as village maps with field stakes, no smartphone required) and a standardized pit-digging template that fixes dimensions to the proven spec." },
+    { q: "How would your idea work?", a: "Public digital elevation models plus standard GIS flow-accumulation analysis show where runoff converges; those points are marked on printed maps and staked in the field; the template holds pits to the traditional 15-50 cm width and 5-15 cm depth that the evidence base assumes." },
+    { q: "How does your idea meet the challenge?", a: "Zai is documented climate adaptation - UNEP credits it with up to 500% yield increases and, with allied techniques, reversing degradation on 6 million hectares (CBT Tech Climate Solutions, SDG 13; core benefits also map to SDG 2). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "The same digging labor captures more water when the pit sits where water actually flows - and programs that raised incomes 18-24% on average get a tool that narrows their biggest source of variance: placement guesswork." },
+    { q: "What makes your idea different or better than existing solutions?", a: "NGOs already teach how to dig zai; nobody sells where. Our maps are made once and replicated per village at near-zero marginal cost, and unlike precision-agriculture platforms, the product works for a farmer with no phone - paper, stakes, and a wooden template." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a mapping-and-tools social enterprise selling to GGW programs, NGOs, and local governments; farmers receive maps and templates through those programs." },
+    { q: "In one sentence, describe your business innovation", a: "The pit is ancient; the spot is satellite - we tell Sahel farmers where the rain will gather before it falls." }
+  ]
+},
 ];
