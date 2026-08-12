@@ -351,6 +351,83 @@ a { color: inherit; }
 .notes textarea { min-height: 110px; }
 .notes .save-state { font-size: 12px; color: var(--muted); margin-top: 8px; min-height: 16px; }
 
+/* ---------- 구조 다이어그램 ---------- */
+.diagram-steps {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 8px;
+}
+.diagram-step {
+  flex: 1 1 150px;
+  background: var(--cat-bg, #F3EEE4);
+  border-left: 4px solid var(--cat-color, var(--ink));
+  border-radius: 8px;
+  padding: 12px 14px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.diagram-arrow {
+  align-self: center;
+  color: var(--cat-color, var(--muted));
+  font-weight: 700;
+  font-size: 18px;
+  flex: 0 0 auto;
+}
+.diagram-svg { margin-top: 14px; }
+.diagram-svg svg { max-width: 100%; height: auto; display: block; }
+
+/* ---------- NFTE 지원서 초안 Q&A ---------- */
+.qa-section { }
+.qa > summary {
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  cursor: pointer;
+}
+.qa > summary:hover { color: var(--ink); }
+.qa-note {
+  font-size: 13px;
+  color: var(--badge-unverified-ink);
+  background: var(--badge-unverified-bg);
+  border: 1px solid #F0DDBB;
+  border-radius: 8px;
+  padding: 8px 12px;
+  margin: 12px 0;
+}
+.qa-list { padding-left: 22px; margin: 0; }
+.qa-item { margin: 16px 0; }
+.qa-q { margin: 0 0 5px; font-weight: 700; font-size: 14px; color: var(--ink); }
+.qa-a { margin: 0; font-size: 14px; color: var(--ink); line-height: 1.6; }
+.qa-draft-angle {
+  display: inline-block;
+  background: var(--badge-estimate-bg);
+  color: var(--badge-estimate-ink);
+  font-weight: 600;
+  font-size: 0.92em;
+  padding: 1px 6px;
+  border-radius: 6px;
+  margin-right: 4px;
+}
+.qa-recommend {
+  background: var(--badge-unverified-bg);
+  color: var(--badge-unverified-ink);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+.qa-quote {
+  margin: 0;
+  padding: 10px 14px;
+  border-left: 3px solid var(--muted);
+  background: #fff;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  font-size: 14px;
+  color: var(--ink);
+  line-height: 1.6;
+}
+
 /* ---------- 모바일 ---------- */
 @media (max-width: 640px) {
   .wrap { padding: 0 16px; }

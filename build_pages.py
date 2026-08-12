@@ -141,6 +141,68 @@ def section(title, body):
     return '<section class="section"><h2>%s</h2>%s</section>' % (esc(title), body)
 
 
+def render_diagram(idea):
+    """diagram.steps(문제→핵심→결과) 3단계 박스 + (있으면) 인라인 SVG.
+    박스 색은 카테고리 색을 따름. svg는 사용자 authored 데이터라 원문 그대로 인라인."""
+    d = idea.get("diagram")
+    if not isinstance(d, dict):
+        return ""
+    cat = idea["category"]
+    steps = d.get("steps") or []
+    box = []
+    for i, s in enumerate(steps):
+        if i:
+            box.append('<div class="diagram-arrow" aria-hidden="true">→</div>')
+        box.append('<div class="diagram-step">%s</div>' % esc(s))
+    inner = '<div class="diagram-steps">%s</div>' % "".join(box)
+    if d.get("svg"):
+        inner += '<div class="diagram-svg">%s</div>' % d["svg"]  # 원문 SVG 인라인
+    body = ('<div class="diagram" style="--cat-color:var(--c-%s);--cat-bg:var(--c-%s-bg)">%s</div>'
+            % (cat, cat, inner))
+    return section("구조 한눈에", body)
+
+
+def render_answer(a_raw, idx, last_idx):
+    """nfte_qa 답변 렌더.
+    Q1(idx 0): 선두 [Draft angle …] 배지 강조.
+    Q9(idx 8): 'Recommended selection: …' 강조.
+    Q10(마지막): 인용구 스타일은 호출부에서 처리."""
+    a = esc(a_raw)
+    if idx == 0:
+        a = re.sub(r"^(\[Draft angle[^\]]*\])",
+                   r'<span class="qa-draft-angle">\1</span>', a)
+    if idx == 8:
+        a = re.sub(r"(Recommended selection:\s*[^.\-–—]+)",
+                   r'<strong class="qa-recommend">\1</strong>', a)
+    return a
+
+
+def render_nfte_qa(idea):
+    """NFTE 지원서 초안 Q&A 10문항. 기본 접힘(details). 초안 배지·안내 포함."""
+    qa = idea.get("nfte_qa") or []
+    if not qa:
+        return ""
+    last = len(qa) - 1
+    items = []
+    for i, pair in enumerate(qa):
+        q = esc(pair.get("q", ""))
+        a_raw = pair.get("a", "")
+        if i == last:
+            a_html = '<blockquote class="qa-quote">%s</blockquote>' % esc(a_raw)
+        else:
+            a_html = '<p class="qa-a">%s</p>' % render_answer(a_raw, i, last)
+        items.append('<li class="qa-item"><p class="qa-q">%s</p>%s</li>' % (q, a_html))
+    return (
+        '<section class="section qa-section">'
+        '<details class="qa">'
+        '<summary>NFTE 지원서 초안 Q&amp;A (10문항) '
+        '<span class="badge-unverified">※초안</span></summary>'
+        '<p class="qa-note">※ 초안 — 학생이 자기 목소리로 다시 써야 함.</p>'
+        '<ol class="qa-list">%s</ol>'
+        '</details></section>'
+    ) % "".join(items)
+
+
 PAGE = '''<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
@@ -186,6 +248,9 @@ def build_detail_body(idea, by_id):
 
     if idea.get("concept"):
         parts.append(section("개념", "<p>%s</p>" % esc(idea["concept"])))
+    diagram_html = render_diagram(idea)
+    if diagram_html:
+        parts.append(diagram_html)
     if idea.get("science"):
         parts.append(section("과학 원리", "<p>%s</p>" % esc(idea["science"])))
     if idea.get("numbers"):
@@ -218,6 +283,11 @@ def build_detail_body(idea, by_id):
     if rel:
         lis = "".join('<li><a href="%s.html">%s</a></li>' % (esc(r["id"]), esc(r["title"])) for r in rel)
         parts.append(section("연관 아이디어", '<ul class="related-list">%s</ul>' % lis))
+
+    # NFTE 지원서 초안 Q&A (기본 접힘)
+    qa_html = render_nfte_qa(idea)
+    if qa_html:
+        parts.append(qa_html)
 
     # 교사 메모 (본문은 정적, 저장 로직만 notes.js)
     parts.append(
