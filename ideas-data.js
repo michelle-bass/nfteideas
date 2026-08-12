@@ -22,7 +22,20 @@ window.IDEAS = [
     { label: "DOE Building America 수치의 2차 인용 (실내 18% / 실외 55%)", url: "https://www.blindsgalore.com/blog/index.php/beyond-basics/interior-vs-exterior-solar-screens/", verified: true },
     { label: "BBSA 런던 실측 소개 — 외부 블라인드 열 축적 40% 감소", url: "https://kensingtonblinds.uk/can-internal-blinds-stop-overheating/", verified: true }
   ],
-  related: ["H2", "H9"]
+  related: ["H2", "H9"],
+  diagram: { steps: ["문제: 여름 햇빛이 유리를 통과해 실내에 열로 갇힘", "핵심: 태양 궤적 계산으로 창마다 맞춤 재단된 탈부착 외부 차양 제작", "결과: 냉방 전력 사용과 요금 절감, 정전 위험 완화에 기여"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] The idea that a 500-year-old Korean roof design already solved solar geometry - and that we can give every window that same intelligence with math - is what drew us in." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Urban households in older buildings and rentals - people who suffer indoor overheating but cannot make permanent modifications to windows they do not own." },
+    { q: "What customer need or want are you trying to meet?", a: "They need cooler rooms and lower cooling bills without construction, landlord permission battles, or expensive smart-home systems." },
+    { q: "What is your innovative idea?", a: "An AI service that computes the optimal awning depth and angle for each specific window from solar-path geometry - the hanok eave principle - and ships a custom-cut, removable exterior shade kit." },
+    { q: "How would your idea work?", a: "Enter your address and window orientation/size; the engine calculates sun paths across the seasons and designs a shade that blocks high summer sun but admits low winter sun; the kit attaches without damage, so renters can install and remove it." },
+    { q: "How does your idea meet the challenge?", a: "Reducing cooling demand cuts both emissions and summer grid stress - direct climate action (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Exterior shading blocks far more solar heat than interior blinds (up to 90%+ vs ~18%), and a London field test showed 40% less internal heat build-up - so the customer gets a measurably cooler room with zero running cost." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Exterior shading products exist, but almost none are designed per window: we sell the solar-geometry design itself, custom-cut to each window, installable by renters without permission or damage - versus one-size awnings or interior blinds that block only ~18% of solar gain." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a small design-and-manufacturing startup earning revenue from custom shade-kit sales online." },
+    { q: "In one sentence, describe your business innovation", a: "An AI service that turns the centuries-old logic of Korean hanok eaves into custom-cut, renter-friendly exterior window shades designed from each window's own solar geometry." }
+  ]
 },
 {
   id: "H2", category: "heatwave",
@@ -41,7 +54,20 @@ window.IDEAS = [
     { label: "ScienceDirect — 지붕용 PCM 융점 37~42°C 효과", url: "https://www.sciencedirect.com/science/article/abs/pii/S2451904925001635", verified: true },
     { label: "질병관리청 — 2024년 온열질환·열대야 기록", url: "https://www.kdca.go.kr/board/board.es?mid=a20501000000&bid=0015&list_no=726239&cg_code=&act=view&nPage=3&newsField=202410", verified: true }
   ],
-  related: ["P4", "H1"]
+  related: ["P4", "H1"],
+  diagram: { steps: ["문제: 낮 실내 열 축적으로 냉방 부하 급증", "핵심: PCM 천장 타일이 낮에 열을 흡수(융해)하고 밤에 재응고", "결과: 실내 최고온도·냉방 전력 저감, 정전 중에도 완충 효과 유지"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] We were struck that a material can 'store coolness' the way a battery stores charge - and that Korea's record 24.5 tropical nights in 2024 make this urgent at home." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Schools, small shops, and container-building users who cannot afford major insulation work or all-day air-conditioning." },
+    { q: "What customer need or want are you trying to meet?", a: "They need daytime indoor peaks tamed cheaply, without construction, and some cooling resilience even during outages." },
+    { q: "What is your innovative idea?", a: "A drop-in PCM ceiling tile that melts and absorbs heat by day, re-solidifies at night, and shows its recharge state with a color indicator - replaceable one tile at a time." },
+    { q: "How would your idea work?", a: "Phase-change material absorbs large amounts of heat at its melting point without warming further; tiles sit in standard ceiling grids, and morning pre-cooling can 'charge' them before the afternoon peak." },
+    { q: "How does your idea meet the challenge?", a: "Shaving and shifting peak cooling load reduces emissions and grid stress (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Published results show 2-3 degrees C lower indoor peaks and up to 20.9% lower peak cooling load - a cooler classroom or shop with no wiring, no motor, and no daily cost." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Building PCM today is embedded in walls at construction time; ours is a drop-in, one-tile-at-a-time retrofit with a visible recharge indicator - serviceable by anyone, no construction." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a small manufacturer (or licensing deal with an existing ceiling-tile maker) selling to schools and shops, with municipal procurement as an anchor channel." },
+    { q: "In one sentence, describe your business innovation", a: "A drop-in ceiling tile that stores daytime heat in phase-change material and shows its own recharge state, cooling classrooms and shops without construction or electricity." }
+  ]
 },
 {
   id: "H3", category: "heatwave",
@@ -56,7 +82,20 @@ window.IDEAS = [
   references: [
     { label: "ILO 2019 — Working on a Warmer Planet 발표 (2.2%, 8,000만, $2.4조)", url: "https://www.ilo.org/resource/news/increase-heat-stress-predicted-bring-productivity-loss-equivalent-80", verified: true }
   ],
-  related: ["P4"]
+  related: ["P4"],
+  diagram: { steps: ["문제: 냉각 조끼·장비의 고가 초기 구매 부담", "핵심: 표준 규격 카트리지 + 편의점·현장 교환소에서 방전품↔충전품 교환", "결과: 장비 소유 없이 저렴하게 상시 냉각 이용, 반복 수익 구조"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] The unfairness gripped us: the people working hardest in the heat can least afford cooling gear - so we redesigned the business model instead of the vest." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Outdoor workers - construction, delivery, farming - and the companies responsible for their safety." },
+    { q: "What customer need or want are you trying to meet?", a: "Workers need affordable, always-available cooling without buying expensive gear; employers need fewer heat incidents and less lost work time." },
+    { q: "What is your innovative idea?", a: "A standardized PCM cooling cartridge that fits any vest or neckband, plus swap stations at convenience stores and job sites exchanging spent cartridges for frozen ones - cooling as a subscription, not a purchase." },
+    { q: "How would your idea work?", a: "The cartridge is a razor-and-blades standard: one format across garments; stations keep stock frozen; day passes, monthly passes, and corporate bulk plans cover usage." },
+    { q: "How does your idea meet the challenge?", a: "It protects worker health during extreme heat (MetLife Good Health & Well-Being, SDG 3), addressing the ILO-projected 2.2% of global work hours lost to heat by 2030. (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "A worker pays a small daily fee instead of a large upfront cost and never carries a warm, useless pack - the swap network keeps cooling continuous through the workday." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Cooling vests exist but each brand's packs are incompatible and expensive to own; we standardize the cartridge across garments and sell access through swap stations - ownership removed, cost per day minimized." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a subscription/rental service company operating swap stations with retail and corporate partners." },
+    { q: "In one sentence, describe your business innovation", a: "A razor-and-blades cooling service: one standardized PCM cartridge for every vest, swapped frozen-for-spent at convenience stores and job sites." }
+  ]
 },
 {
   id: "H4", category: "heatwave",
@@ -72,7 +111,20 @@ window.IDEAS = [
     { label: "질병관리청 — 2024년 온열질환 응급실감시체계 운영결과", url: "https://www.kdca.go.kr/board/board.es?mid=a20501000000&bid=0015&list_no=726239&cg_code=&act=view&nPage=3&newsField=202410", verified: true },
     { label: "Hess et al. 2018 — 아마다바드 HAP 평가 (J. Environ. Public Health)", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/", verified: true }
   ],
-  related: ["P2", "P8", "H6"]
+  related: ["P2", "P8", "H6"],
+  diagram: { steps: ["문제: 폭염 취약가구가 위험 신호를 보내도 응답할 사람이 없음", "핵심: 오프라인 우선 체크인 장치 + AI가 최근접 이웃 봉사자를 자동 배정", "결과: 감지에서 실제 방문·대응까지 이어지는 폐쇄 루프 완성"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] One statistic stayed with us: most heat deaths are preventable if someone simply checks in - so we built the check-in loop, not another sensor." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Elderly people living alone in heat-vulnerable homes; the paying customer is the municipal welfare office responsible for them." },
+    { q: "What customer need or want are you trying to meet?", a: "Vulnerable residents need someone to notice danger and actually come; families and welfare offices need assurance without 24-hour staffing." },
+    { q: "What is your innovative idea?", a: "An offline-first check-in device that alerts the resident first, escalates if unanswered, and - the key part - automatically assigns the nearest registered neighbor or student volunteer to visit, reviving Korea's dure mutual-aid tradition." },
+    { q: "How would your idea work?", a: "Temperature/humidity thresholds trigger sound and light; an 'I'm OK' button clears it; no response sends alerts over low-power comms (with battery backup), and a dispatcher matches the closest available responder." },
+    { q: "How does your idea meet the challenge?", a: "It directly targets heat mortality among the most vulnerable (MetLife Good Health & Well-Being, SDG 3). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "In Korea's 2024 surveillance, 65+ accounted for 30.4% of heat-illness cases with the highest rates among 80+ - this closes the gap between an alarm ringing and a human arriving, the failure point of existing services." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Existing sensing services stop at the alert; ours closes the loop by automatically dispatching the nearest registered neighbor or volunteer - the response, not just the alarm, is the product." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a social enterprise earning revenue through municipal welfare (B2G) contracts; a Government Policy/Program framing also fits if the city runs it directly." },
+    { q: "In one sentence, describe your business innovation", a: "A check-in device for elders that does not stop at the alarm - it automatically sends the nearest neighbor to the door, reviving Korea's mutual-aid tradition." }
+  ]
 },
 {
   id: "H5", category: "heatwave",
@@ -90,7 +142,20 @@ window.IDEAS = [
     { label: "Oxford IJLCT — 3~6m 안정층 = 연평균 기온", url: "https://academic.oup.com/ijlct/article/4/3/150/709654", verified: true },
     { label: "PMC — 점토 용기 지중 열교환 실험 (COP 수치)", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11289094/", verified: true }
   ],
-  related: ["H11", "D2"]
+  related: ["H11", "D2"],
+  diagram: { steps: ["문제: 폭염기 채소 부패, 냉방 전력 의존도 심화", "핵심: 지하 2~3m 이하의 연중 안정된 지중 온도를 저장 또는 공기 냉각에 활용", "결과: 전력 없이 폭염 저장과 정전 대비를 동시에 해결"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] We loved that our grandparents' kimchi pots buried in the yard were already a working climate technology - constant ground temperature - waiting to be instrumented." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Market vendors, farms, and school gardens (storage module); rural schools and clinics in South Asia and Iran (air-cooling module)." },
+    { q: "What customer need or want are you trying to meet?", a: "They need produce kept cool through heatwaves - and through outages - without electricity bills or machinery." },
+    { q: "What is your innovative idea?", a: "Two regional modules on one principle: a sensor-equipped buried storage vessel (Korean jangdokdae tradition) and an earth-air tube descended from qanats and stepwells that pre-cools air for buildings." },
+    { q: "How would your idea work?", a: "Soil 2-3 m down stays near the annual mean temperature year-round; the vessel borrows that stability directly, while the tube passes outside air through buried pipe (measured cooling up to ~22 degrees C in literature, summer COP ~5.9)." },
+    { q: "How does your idea meet the challenge?", a: "Zero-electricity cooling that also survives blackouts is climate adaptation and mitigation at once (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Unlike evaporative cooling, ground cooling ignores humidity - so it works in Korea's muggy summer - and one product answers both the heatwave and the outage version of the same need." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Evaporative and electric cooling both fail somewhere - humidity or bills; ground cooling ignores both, and our two regional modules (buried vessel / earth-air tube) package a proven principle into products where none are marketed." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a small rural-equipment social enterprise selling installations through agricultural cooperatives." },
+    { q: "In one sentence, describe your business innovation", a: "Sensor-equipped ground cooling - buried storage vessels and earth-air tubes - that turns the earth's constant deep-soil temperature into free, humidity-proof refrigeration." }
+  ]
 },
 {
   id: "H6", category: "heatwave",
@@ -105,7 +170,20 @@ window.IDEAS = [
   references: [
     { label: "Hess et al. 2018 — 아마다바드 HAP 평가 (2010년 1,344명 초과사망, 연 1,190명 회피)", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6236972/", verified: true }
   ],
-  related: ["H4", "H5"]
+  related: ["H4", "H5"],
+  diagram: { steps: ["문제: 인도 아마다바드 등 폭염 도시에서 정류장·시장에 그늘이 부족", "핵심: stepwell 원리의 반지하 냉각 모듈을 AI 열지도로 우선순위 지점에 배치", "결과: 경보(정보) 단계를 넘어 실제 냉각 인프라로 취약 지점 보호"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] Ahmedabad proved warnings can save over a thousand lives a year - we wanted to build what comes after the warning: a place to actually cool down." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Cities running Heat Action Plans - Ahmedabad first - buying for residents who wait at bus stops and work in open markets." },
+    { q: "What customer need or want are you trying to meet?", a: "People stuck outdoors need somewhere genuinely cooler within reach; cities need infrastructure they can target where risk is highest." },
+    { q: "What is your innovative idea?", a: "A small semi-sunken cooling shelter that miniaturizes the stepwell (vav): depth, shade, stone-and-earth thermal mass, and rainwater circulating on inner walls - placed by an AI heat map, cooling only the seating zone." },
+    { q: "How would your idea work?", a: "Thermal mass buffers the daytime peak, shade and evaporation lower felt temperature, and sensors modulate water and a small fan by occupancy - so water and power are spent only where people sit." },
+    { q: "How does your idea meet the challenge?", a: "It is climate-adaptive public infrastructure grounded in local heritage (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "In 2010 Ahmedabad's heatwave caused 1,344 excess deaths in one month; the HAP now averts ~1,190 deaths/year with information alone - physical cool refuges extend that protection to people who cannot go home." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Heat Action Plans deliver warnings; no one delivers refuge. A heritage-based semi-sunken shelter, sited by heat-map data and cooling only the seating zone, is infrastructure existing HAPs lack." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: Government Policy/Program - cooling shelters procured and operated under a city's Heat Action Plan (with a for-profit vendor supplying and maintaining the modules)." },
+    { q: "In one sentence, describe your business innovation", a: "A semi-sunken stepwell-inspired cooling shelter, placed by AI heat maps at a city's hottest bus stops and markets." }
+  ]
 },
 {
   id: "H7", category: "heatwave",
@@ -121,7 +199,20 @@ window.IDEAS = [
     { label: "Nejat et al. 2021, J. Building Engineering — Badgir 냉방력·쾌적 (9.6kW)", url: "https://www.sciencedirect.com/science/article/abs/pii/S235271022100293X", verified: true },
     { label: "연구 초록 모음 — windcatcher+증발냉각 냉방부하 73% 감소", url: "https://eurekamag.com/research/099/652/099652586.php", verified: true }
   ],
-  related: ["H5"]
+  related: ["H5"],
+  diagram: { steps: ["문제: 전기 없는 사막 도시 주민의 냉방 접근성 부족", "핵심: 전통 windcatcher에 풍향 자동 루버·먼지 필터·야간 배기 추가", "결과: 무전력으로 냉방력 확보, 고정형 대비 풍향 변화에도 대응"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] A tower that has cooled desert homes for centuries without a single watt - our question became: what if it could also turn its head with the wind?" },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Schools, shops, and low-income households in Yazd and similar dry regions that cannot afford electric cooling." },
+    { q: "What customer need or want are you trying to meet?", a: "They need real cooling and ventilation with no electricity cost, no dust intrusion, and no dependence on a fixed wind direction." },
+    { q: "What is your innovative idea?", a: "A retrofit windcatcher kit whose internal louvers rotate automatically toward the wind, with a dust filter, night-purge mode, and a small controller that learns local wind and heat patterns." },
+    { q: "How would your idea work?", a: "Wind pressure drives air down into the room only when outdoor air is cooler; on dusty days the filter closes; at night the tower exhausts stored indoor heat - fixing the fixed-badgir's fatal flaw of wind-direction dependence." },
+    { q: "How does your idea meet the challenge?", a: "Zero-electricity cooling for heat-stressed dry regions is direct climate adaptation (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Research shows windcatchers can deliver up to 9.6 kW of passive cooling at 4 m/s wind and comfort across 50-80% of ventilated space - our kit brings that to existing buildings for the price of a filter subscription." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Modern retrofit windcatchers exist in research, but fixed traditional badgirs lose efficiency when wind shifts; our auto-rotating louver, dust filter, and night-purge target exactly the failure modes that keep the tradition from scaling." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a small hardware company selling retrofit kits and filter consumables, with NGO subsidy channels for low-income homes." },
+    { q: "In one sentence, describe your business innovation", a: "A retrofit windcatcher whose louvers turn with the wind, bringing centuries-old desert cooling to any existing roof without a watt of electricity." }
+  ]
 },
 {
   id: "H8", category: "heatwave",
@@ -137,7 +228,20 @@ window.IDEAS = [
     { label: "Solcerova et al. 2018, Water — Uchimizu 3D 실측 (1~2°C, 최대 8.3°C)", url: "https://www.mdpi.com/2073-4441/10/6/741", verified: true },
     { label: "TU Delft 연구 소개 (phys.org)", url: "https://phys.org/news/2017-04-traditional-japanese-uchimizu-technique-cool.html", verified: true }
   ],
-  related: ["H10"]
+  related: ["H10"],
+  diagram: { steps: ["문제: 한낮 뙤약볕에 물을 뿌리는 직관적 살수는 비효율적", "핵심: AI가 기온·습도·풍속·보행자 수를 분석해 조건이 맞을 때만 소량 정밀 살수", "결과: 빗물 재사용으로 도로·보행 구간의 체감온도 저감"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] We were charmed that Tokyo residents have sprinkled water on streets for 400 years - and surprised that science says most of them do it at the wrong time." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Municipal heat teams and shopping-street associations responsible for school routes, markets, and bus stops." },
+    { q: "What customer need or want are you trying to meet?", a: "They need cooler walking routes at peak exposure times, using water they will not be criticized for wasting." },
+    { q: "What is your innovative idea?", a: "AI-timed uchimizu: stored rainwater is released only when conditions guarantee evaporative cooling, on the exact segments where pedestrians are, drip-fed into porous pavement." },
+    { q: "How would your idea work?", a: "Sensors and forecasts feed a controller that checks temperature, humidity, wind, shade, and foot traffic; research shows extra water beyond ~1 mm adds little, so the system meters minimal doses precisely." },
+    { q: "How does your idea meet the challenge?", a: "It converts a cultural practice into measurable urban heat mitigation with reclaimed water (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Field measurements show 1-2 degrees C cooler air over wetted ground and up to 8.3 degrees C surface cooling in shade - delivered exactly when children walk to school, per liter accounted for." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Uchimizu events sprinkle on schedule; we sprinkle on physics - only when humidity, temperature, and foot traffic justify it - turning a ritual into a metered, accountable cooling service." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a civic-tech service company paid through municipal performance contracts (cooling delivered per liter, verified)." },
+    { q: "In one sentence, describe your business innovation", a: "An AI revival of the uchimizu tradition that sprinkles reclaimed rainwater only when, where, and in the amount evaporative cooling actually works." }
+  ]
 },
 {
   id: "H9", category: "heatwave",
@@ -153,7 +257,20 @@ window.IDEAS = [
     { label: "US EPA — 쿨루프의 실내온도 저감 (1.2~3.3°C)", url: "https://www.epa.gov/heatislands/using-cool-roofs-reduce-heat-islands", verified: true },
     { label: "Energy & Buildings — 자메이카 저소득 주택 차열 도장 실측", url: "https://www.sciencedirect.com/science/article/pii/S037877881733743X", verified: true }
   ],
-  related: ["H1"]
+  related: ["H1"],
+  diagram: { steps: ["문제: 금속지붕 건물이 여름철 극도로 뜨거워짐", "핵심: 지역 흙·섬유 단열패널을 열화상으로 찾은 위치에 부착, 장인 문양 적용", "결과: 저비용 단열 효과와 지역 장인 소득 창출을 동시에 달성"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] Kutch's mud houses stay cool while its modern metal-roof buildings bake - we wanted the old material to rescue the new architecture, carrying the artisans' patterns with it." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Owners of metal-roofed homes and shops in Kutch, plus the artisan cooperatives who would produce the panels." },
+    { q: "What customer need or want are you trying to meet?", a: "They need affordable relief from roof heat - and they will pay more readily for something beautiful than for something merely technical." },
+    { q: "What is your innovative idea?", a: "Thin modular insulation panels of local earth and plant fiber, attached to hotspots found by smartphone thermal imaging, finished with traditional artisan motifs and replaceable piece by piece." },
+    { q: "How would your idea work?", a: "Earth's high thermal mass and low conductivity delay and dampen heat transfer through the roof; the thermal scan tells each building where panels earn their cost." },
+    { q: "How does your idea meet the challenge?", a: "Low-carbon vernacular materials retrofitted onto modern buildings is climate adaptation that also sustains craft livelihoods (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Cool-roof studies show indoor peaks dropping 1.2-3.3 degrees C from roof treatment alone - and because the panel doubles as decor, the customer buys beauty and gets cooling." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Generic insulation is hidden and joyless; our panel is local earth plus artisan pattern - bought as decor, working as insulation - which no imported foam panel can replicate." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a craft cooperative/community enterprise sharing panel revenue with artisan producers." },
+    { q: "In one sentence, describe your business innovation", a: "Earth-and-fiber insulation panels carrying Kutch artisan motifs - bought as decor, working as cooling - for the metal roofs that bake in summer." }
+  ]
 },
 {
   id: "H10", category: "heatwave",
@@ -168,7 +285,20 @@ window.IDEAS = [
   references: [
     { label: "(물리 상수 기반 — 증발잠열 2.45 MJ/kg, 교과서 수준. 별도 웹 출처 없음)", url: null, verified: false }
   ],
-  related: ["H8"]
+  related: ["H8"],
+  diagram: { steps: ["문제: 습한 기후에서는 증발냉각이 잘 작동하지 않음", "핵심: 북인도 프리몬순의 고온건조 조건에서 베티버 발 + 자동 미세 살수 결합", "결과: 지역 선정으로 증발냉각의 기술적 약점을 극복"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] The insight that hooked us: a cooling method we had to reject for humid Korea becomes excellent in North India's bone-dry heat peak - geography as the missing component." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Households across North India and Pakistan facing the hot, dry pre-monsoon months." },
+    { q: "What customer need or want are you trying to meet?", a: "They need meaningful cooling before the monsoon arrives, without electricity and without wasting scarce water." },
+    { q: "What is your innovative idea?", a: "The traditional khus (vetiver-root) screen upgraded with a small pump, timer, and humidity sensor that mists only the minimum water evaporation actually needs." },
+    { q: "How would your idea work?", a: "Water evaporating from the fragrant root mat absorbs about 0.68 kWh of heat per liter; the sensor holds misting to dry-air windows when the wet-bulb margin is real." },
+    { q: "How does your idea meet the challenge?", a: "Zero-electricity cooling matched honestly to its climate window (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "In the pre-monsoon dry heat the physics works at full strength, the material is a local crop supporting farmers, and the honest label - a hot-season device, not a monsoon one - builds trust." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Mist fans and coolers waste water and need power; a sensor-metered khus screen uses gram-level water doses on a zero-electricity tradition, honestly scoped to the dry season when physics favors it." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a micro-manufacturer rooted in the local vetiver crop economy." },
+    { q: "In one sentence, describe your business innovation", a: "A vetiver-root evaporative screen with sensor-metered misting, deployed exactly in the hot-dry pre-monsoon window where the physics is strongest." }
+  ]
 },
 {
   id: "H11", category: "heatwave",
@@ -183,7 +313,20 @@ window.IDEAS = [
   references: [
     { label: "(복사냉각 원리 — 교과서 수준. 정량 출처 확보 전)", url: null, verified: false }
   ],
-  related: ["H5", "D2"]
+  related: ["H5", "D2"],
+  diagram: { steps: ["문제: 오프그리드 농촌의 냉장 사슬(cold chain) 부재", "핵심: 맑은 밤하늘로 열을 방출하는 야간 복사냉각으로 물을 식힘", "결과: 전력 없이 냉수를 확보해 낮 동안 농산물 예냉에 사용"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] Ancient Persians made ice in the desert with nothing but the night sky - we wanted to prove a student team can still do it, for vegetables instead of ice." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Off-grid desert farms and small produce-storage operators." },
+    { q: "What customer need or want are you trying to meet?", a: "They need harvests pre-cooled after picking - the first step of a cold chain - without any grid connection." },
+    { q: "What is your innovative idea?", a: "A modern yakhchal: shallow night panels radiate heat to the clear sky, chilling water that an insulated tank stores for daytime produce pre-cooling." },
+    { q: "How would your idea work?", a: "On clear dry nights, surfaces radiating through the atmosphere's infrared window drop below air temperature; circulating water carries that coldness into storage - no special films needed at night." },
+    { q: "How does your idea meet the challenge?", a: "A zero-energy cold chain for climate-stressed off-grid agriculture (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Every degree of pre-cooling extends shelf life and cuts post-harvest loss; the farmer's only costs are water circulation and insulation, both one-time." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Daytime radiative cooling needs research-grade films; we use only the night sky - ordinary materials, student-buildable - and target produce pre-cooling, where a few degrees translate directly into shelf life." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a social enterprise selling equipment through farm cooperatives, with development grants funding pilot sites." },
+    { q: "In one sentence, describe your business innovation", a: "A modern yakhchal that chills water against the night sky and spends that free cold pre-cooling harvests on off-grid farms." }
+  ]
 },
 
 /* ================= 정전 (8) ================= */
@@ -204,7 +347,20 @@ window.IDEAS = [
     { label: "축광 피난 표지 규범 해설 (NYC Local Law 26, IBC)", url: "https://blog.qrfs.com/323-which-codes-require-photoluminescent-egress-exit-signs/", verified: true },
     { label: "NRC 캐나다 — 축광 유도 피난 실험 (70% 수용)", url: "https://scispace.com/pdf/effectiveness-of-a-photoluminescent-wayguidance-system-50ju7oiozd.pdf", verified: true }
   ],
-  related: ["P2", "P3"]
+  related: ["P2", "P3"],
+  diagram: { steps: ["문제: 정전 시 대피 유도 표지가 미관을 해쳐 가정에 잘 안 붙음", "핵심: 평시엔 예쁜 인테리어, 어두워지면 숨은 축광 유도선이 나타나는 이중 인쇄", "결과: 촛불 사용 감소, 무전원 반영구 비상 조명 확보"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] One NFPA figure changed how we saw blackouts: in a quarter of fatal candle fires, the house simply had no power - people were burning candles to see." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Ordinary households - especially families with children - plus managers of older multi-family buildings and elevators." },
+    { q: "What customer need or want are you trying to meet?", a: "In the first pitch-dark minutes of an outage, people need to find the flashlight, the breaker, and each other - and they want their walls to look good the other 99.9% of the time." },
+    { q: "What is your innovative idea?", a: "Hidden-layer photoluminescent printing: normal wallpaper, posters, or a kids' star ceiling by day - glowing escape lines, arrows, and 'breaker this way' marks that appear only in darkness, with a decay scale that even shows minutes elapsed." },
+    { q: "How would your idea work?", a: "Transparent glow ink is overprinted on ordinary designs; it charges from daylight and lamps, glows for hours when dark, and its predictable fading doubles as a no-power clock." },
+    { q: "How does your idea meet the challenge?", a: "It removes the deadly candle scenario and protects families in outage darkness (MetLife Good Health & Well-Being, SDG 3). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "The tech is already trusted - photoluminescent egress marking is code-required in high-rises (NYC, IBC) and 70% of evacuees in NRC trials rated it acceptable alone - we deliver it to homes by selling decor people actually want on their walls." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Code-mandated photoluminescent egress tape exists for high-rises but is ugly, so homes never install it; hiding the safety layer inside decor people actually want removes the real adoption barrier - and the decay-scale 'outage clock' exists nowhere else." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a design/decor product company selling through interior channels at decor pricing, not safety pricing." },
+    { q: "In one sentence, describe your business innovation", a: "Wallpaper by day, escape route by blackout: hidden photoluminescent printing that replaces the deadly candle with walls that glow where it matters." }
+  ]
 },
 {
   id: "P2", category: "outage",
@@ -220,7 +376,20 @@ window.IDEAS = [
     { label: "HHS emPOWER 프로그램 (460만+ 전기 의존 수급자)", url: "https://empowerprogram.hhs.gov/", verified: true },
     { label: "emPOWER 데이터 안내 — '수 시간~수일 내 생명 위협'", url: "https://empowerprogram.hhs.gov/Optional-De-Identified-Dataset-Job-Aid.pdf", verified: true }
   ],
-  related: ["P1", "H4", "P6"]
+  related: ["P1", "H4", "P6"],
+  diagram: { steps: ["문제: 정전+통신 두절 시 가족 안부를 확인할 방법이 없음", "핵심: 무전원 NFC 태그에 폰을 대면 위치·이동 기록을 읽고 쓰는 오프라인 메시지 보드", "결과: 통신망 없이도 가족·이웃 간 안부 기록이 남고 복구 시 동기화"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] We hunted for the one information medium that survives when both the grid and the internet die - and found it in a passive sticker powered by the phone that reads it." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Households - especially families with electricity-dependent or elderly members - and municipal welfare-patrol programs." },
+    { q: "What customer need or want are you trying to meet?", a: "When networks are down, families need to know who left, when, and where they went; responders need each home's critical info at the door." },
+    { q: "What is your innovative idea?", a: "A glow-in-the-dark NFC tag by the front door acting as an offline family message board: tap to read house essentials and emergency plans, tap to write 'Dad left 15:20 - shelter A'." },
+    { q: "How would your idea work?", a: "NFC tags are unpowered - the phone's field supplies energy - so reading and writing work with zero infrastructure; shelter tags collect offline arrival rosters that sync when networks return." },
+    { q: "How does your idea meet the challenge?", a: "It keeps families connected to their most vulnerable members through blackout isolation (MetLife Good Health & Well-Being, SDG 3). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Over 4.6 million U.S. Medicare beneficiaries depend on electricity at home; for such families the tag answers the outage's scariest question - 'is everyone accounted for?' - without a single bar of signal." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Outage apps die with the network; our tag is unpowered and works phone-to-sticker with zero infrastructure - and unlike printed contact cards, it is writable, turning a door into a family message board." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a small hardware/design company selling consumer bundles plus municipal welfare-patrol contracts." },
+    { q: "In one sentence, describe your business innovation", a: "An unpowered glow-in-the-dark NFC tag that turns the front door into a family message board working with no grid and no internet - just the phone that taps it." }
+  ]
 },
 {
   id: "P3", category: "outage",
@@ -235,7 +404,20 @@ window.IDEAS = [
   references: [
     { label: "NFPA Ahrens — 정전과 촛불 화재의 연관 (P1과 공유)", url: "https://content.nfpa.org/-/media/Project/Storefront/Catalog/Files/Research/NFPA-Research/US-Fire-Problem/Fire-causes/osCandles.pdf?rev=a0af1ddd6b4e471b979a7be9738233ec", verified: true }
   ],
-  related: ["P1"]
+  related: ["P1"],
+  diagram: { steps: ["문제: 아이는 정전을 가장 무서워하고 훈련은 잘 통하지 않음", "핵심: 놀이 순서 자체가 행동요령이 되는 정전 전용 놀이 상자", "결과: 정전에 대한 공포를 줄이고 안전 행동을 자연스럽게 학습"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] Watching how outage drills fail even adults, we flipped the question: what if a blackout were something a child looked forward to?" },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Parents of young children - the family member most frightened in a blackout is the child." },
+    { q: "What customer need or want are you trying to meet?", a: "Children need comfort and occupation in the dark; parents need the family to execute safety steps without a lecture." },
+    { q: "What is your innovative idea?", a: "A blackout-only play box - glow constellation cards, shadow-play tools, story cards - where the play sequence secretly is the safety protocol." },
+    { q: "How would your idea work?", a: "'Flashlight treasure hunt' locates the flashlight, 'family camp' gathers everyone in one room, 'water-fairy game' fills water - each game completes a preparedness step." },
+    { q: "How does your idea meet the challenge?", a: "It protects children's safety and emotional well-being during outages (MetLife Good Health & Well-Being, SDG 3; an SDG 4 education framing also fits). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Fear becomes anticipation, and the safety checklist completes itself as play - measured by whether kids actually find the flashlight in a drill, and by calmer households in real outages." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Disaster education lectures children about fear; we sell a box they hope to open - the drill disguised as the game is the difference, and it rides the P1 glow technology into the toy aisle." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a toy/parenting product company (or the P1 brand's kids line)." },
+    { q: "In one sentence, describe your business innovation", a: "A blackout-only play box whose games secretly walk children through the family's safety protocol, turning fear of the dark into anticipation." }
+  ]
 },
 {
   id: "P4", category: "outage",
@@ -253,7 +435,20 @@ window.IDEAS = [
     { label: "FDA — 정전 시 식품·물 안전 (드라이아이스 지침)", url: "https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods", verified: true },
     { label: "FoodSafety.gov — 냉장 4시간/냉동 48시간 규칙", url: "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage", verified: true }
   ],
-  related: ["P5", "H2"]
+  related: ["P5", "H2"],
+  diagram: { steps: ["문제: 소상공인은 정전 시 냉장 재고 손실 위험이 큼", "핵심: 심야 저렴한 전기로 얼리고, 폭염·정전 예보 시 전날 밤 풀충전하는 AI 컨트롤러", "결과: 평시 전기료 절감 + 정전 시 재고 보호를 동시에 달성"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] Korea's old ice houses stored winter cold for summer; our controller does the same overnight - and checks the weather forecast before deciding how much cold to bank." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Small refrigeration-dependent businesses: butchers, sushi restaurants, shops with refrigerated cases." },
+    { q: "What customer need or want are you trying to meet?", a: "They need inventory protected through outages and lower electricity bills the rest of the year - one device, both payoffs." },
+    { q: "What is your innovative idea?", a: "An ice battery whose AI controller decides when and how much to freeze based on tariffs, weather forecasts (heatwave = outage risk), and the shop's usage pattern - fully charging the night before predicted danger." },
+    { q: "How would your idea work?", a: "Ice stores ~0.93 kWh of cooling per 10 kg (latent heat 334 kJ/kg); freezing happens in cheap late-night hours under Korea's ice-storage tariff, and melting rides out afternoon peaks or outages." },
+    { q: "How does your idea meet the challenge?", a: "Peak-load shifting cuts grid stress and emissions while building outage resilience (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "One summer outage hour costs a small-medium business roughly $1,200 (LBNL); the shop that banked cold the night before keeps its stock - and saves on every normal day too." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Backup batteries store expensive electricity; ice stores cheap cold - and unlike any timer-based ice storage, our controller reads outage-risk forecasts and banks extra cold the night before danger." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a small refrigeration-equipment company selling or leasing units recouped through tariff savings (an energy-service model also fits)." },
+    { q: "In one sentence, describe your business innovation", a: "An ice battery that reads tomorrow's weather: it banks cheap night-time cold every day and fully charges before forecast heatwaves and outage risk." }
+  ]
 },
 {
   id: "P5", category: "outage",
@@ -270,7 +465,20 @@ window.IDEAS = [
     { label: "Bloom Energy — DOE $150B/년, 슈퍼마켓 $30,000 사례", url: "https://www.bloomenergy.com/blog/a-day-without-power-outage-costs-for-businesses/", verified: true },
     { label: "CDC — 정전 후 식품 안전 규칙", url: "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html", verified: true }
   ],
-  related: ["P4", "P6"]
+  related: ["P4", "P6"],
+  diagram: { steps: ["문제: 소상공인은 정전 피해 규모를 모른 채 막연히 발전기를 고민", "핵심: 기기별 전력을 측정해 정전 시 필수 장비만 선정하고 필요 배터리 용량 계산", "결과: 필요 백업 용량 자체를 줄여 저비용 대비 가능"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] We noticed small shops either buy generators too big to afford or nothing at all - because nobody has told them their real number: what one dark hour costs them." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Small merchants running POS systems and refrigerated cases; reached through merchant associations and franchise headquarters." },
+    { q: "What customer need or want are you trying to meet?", a: "They need to know which equipment truly matters in an outage, what backup it requires, and what actions to take - not a generator sales pitch." },
+    { q: "What is your innovative idea?", a: "A diagnostic service: measure each device's draw, select the minimum survival set, compute the exact battery capacity, and hand over an action manual (offline payments, door-opening limits)." },
+    { q: "How would your idea work?", a: "Smart-plug-level metering builds each shop's load profile; the report converts it into hours-of-runtime per backup option and a taped-to-the-wall protocol." },
+    { q: "How does your idea meet the challenge?", a: "It protects small-business livelihoods from climate-driven outage losses (PayPal Opportunity for All, SDG 8). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Against the ~$1,200/hour benchmark, a diagnosis costing a fraction of that pays for itself in the first prevented incident - and shrinks the backup they need to buy at all." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Generator vendors size up to sell more; we diagnose down - shrinking the required backup by identifying the minimum survival set - and we sell the analysis, carrying zero hardware inventory." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a consulting/service business charging per diagnosis, reached through merchant associations." },
+    { q: "In one sentence, describe your business innovation", a: "A diagnosis-first outage service that tells a shop exactly what one dark hour costs and the minimum backup that keeps its livelihood alive." }
+  ]
 },
 {
   id: "P6", category: "outage",
@@ -286,7 +494,20 @@ window.IDEAS = [
     { label: "HHS emPOWER 프로그램", url: "https://empowerprogram.hhs.gov/", verified: true },
     { label: "emPOWER 데이터 안내 (4.5M/3M, '수 시간~수일')", url: "https://empowerprogram.hhs.gov/Optional-De-Identified-Dataset-Job-Aid.pdf", verified: true }
   ],
-  related: ["P2", "P5"]
+  related: ["P2", "P5"],
+  diagram: { steps: ["문제: 전기 의존 의료기기 가구는 정전이 생명 위협으로 직결", "핵심: 장비별 소비전력 기준 용량 계산 + 인증 배터리 렌털 + 정기 점검 + 보호자 알림", "결과: 화재·품질 리스크 없이 안전한 백업 전원 확보"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] For most people an outage is inconvenience; for a household running an oxygen concentrator it is a countdown - that difference is the whole idea." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Households with electricity-dependent medical equipment; reached through hospitals and welfare agencies." },
+    { q: "What customer need or want are you trying to meet?", a: "They need guaranteed backup hours matched to their specific device, kept genuinely ready - not a battery gathering dust and losing charge." },
+    { q: "What is your innovative idea?", a: "A certified backup-power rental with scheduled inspections and a guardian-alert device reporting remaining charge during outages - we never build batteries, we service certified ones." },
+    { q: "How would your idea work?", a: "Required watt-hours are computed from the device's draw and target runtime; rentals rotate through inspection; the alert module notifies family when charge runs low." },
+    { q: "How does your idea meet the challenge?", a: "It secures life-critical power for the medically vulnerable (MetLife Good Health & Well-Being, SDG 3). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "About 3 million U.S. Medicare beneficiaries use electricity-dependent medical equipment, and prolonged outages threaten life within hours - a rental that is always inspected turns that countdown into covered time." },
+    { q: "What makes your idea different or better than existing solutions?", a: "DIY battery packs and generic power stations carry fire and fit risks for medical loads; we rent certified units sized to the exact device, with scheduled inspection and guardian alerts - reliability as a service." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a rental-service company partnering with certified battery suppliers, hospitals, and welfare co-payers." },
+    { q: "In one sentence, describe your business innovation", a: "Certified backup power as a service - sized to the exact medical device, inspected on schedule, and reporting its charge to the family when the lights go out." }
+  ]
 },
 {
   id: "P7", category: "outage",
@@ -301,7 +522,20 @@ window.IDEAS = [
   references: [
     { label: "(기술 사양 확인 전 — LoRa 데이터시트·전파법 검토 필요)", url: null, verified: false }
   ],
-  related: ["P2"]
+  related: ["P2"],
+  diagram: { steps: ["문제: 대규모 정전으로 통신망까지 끊기면 마을 안에서도 연락 불가", "핵심: 태양광 자립 LoRa 노드가 안부·구조요청 메시지를 마을 단위로 릴레이 전달", "결과: 통신 두절 상황에서도 최소한의 정보 흐름 확보"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] Korea once ran a national emergency network on mountain-top signal fires; we realized a $10 radio chip could revive that exact architecture for a blacked-out town." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Apartment management associations and municipal disaster offices buying resilience for their residents." },
+    { q: "What customer need or want are you trying to meet?", a: "When grid and networks fail together, neighbors need a way to send 'we are safe' and 'help here' across the village." },
+    { q: "What is your innovative idea?", a: "Solar-powered LoRa mesh nodes on rooftops and community halls relaying short safety/SOS messages - the bongsu beacon network (or West Africa's talking drums) rebuilt in low-power radio." },
+    { q: "How would your idea work?", a: "Residents type short messages by phone over Bluetooth to the nearest node; nodes relay hop-by-hop across the mesh; solar keeps every node alive indefinitely." },
+    { q: "How does your idea meet the challenge?", a: "Communication resilience for climate-driven grid failures (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "The need is precisely the outage's information vacuum - who is safe, where help is needed - and the mesh answers it with no towers, no bills, and a heritage story judges remember." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Satellite messengers serve individuals who pre-bought them; our mesh serves the whole village including those with nothing but a phone - and the beacon-relay heritage framing makes it memorable and community-owned." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a civic-tech company selling node hardware and maintenance to apartment associations and municipal disaster offices; a Government Policy/Program framing fits where cities own the network." },
+    { q: "In one sentence, describe your business innovation", a: "Korea's beacon-fire relay network reborn as solar LoRa mesh, carrying 'we are safe' across a blacked-out town with no towers and no bills." }
+  ]
 },
 {
   id: "P8", category: "outage",
@@ -318,7 +552,20 @@ window.IDEAS = [
     { label: "Yale 정책 메모 2026 — 오프그리드 280만 명, ₱16~25/kWh, 보조금 ₱200억+", url: "https://cleanenergyforum.yale.edu/2026/01/28/policy-memo-improving-electricity-access-reliability-and-affordability-in-off-grid", verified: true },
     { label: "필리핀 DOE — 2023-2032 국가 전화 로드맵", url: "https://legacy.doe.gov.ph/announcements/2023-2032-national-total-electrification-roadmap", verified: true }
   ],
-  related: ["H4"]
+  related: ["H4"],
+  diagram: { steps: ["문제: 필리핀 오프그리드 섬은 전력망이 없거나 비싼 디젤 발전에 의존", "핵심: 동네 sari-sari store에 태양광+배터리를 설치, tingi 방식으로 소량 단위 판매", "결과: 신규 인프라 없이 기존 상점망으로 전력·냉장·통신 거점화"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] What moved us is that the solution already exists on every island corner - the sari-sari store - it just has never been asked to sell electricity the way it sells shampoo: one sachet at a time." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Residents of Philippine off-grid islands; the operating partner-customers are sari-sari store owners, electric cooperatives, and NGOs." },
+    { q: "What customer need or want are you trying to meet?", a: "About 1.29 million off-grid households need electricity and refrigeration they can actually afford - in the small increments their cash flow allows - plus fair priority for the vulnerable during outages." },
+    { q: "What is your innovative idea?", a: "Turn the trusted neighborhood store into a village energy hub: rooftop solar plus shared batteries, selling power tingi-style (per phone charge, per day of refrigeration), with bayanihan mutual-aid priority rules." },
+    { q: "How would your idea work?", a: "Solar charges shared storage; purchases are logged by app or by the store's traditional cash-and-ledger; AI forecasts demand and weather to reserve emergency power before storms." },
+    { q: "How does your idea meet the challenge?", a: "Its core is SDG 7 (affordable clean energy); nearest challenge mapping is CBT Tech Climate Solutions (SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Diesel islands pay 16-25 pesos/kWh despite 20+ billion pesos in yearly subsidies; buying electricity in sachets from a shop they already trust matches both their budget rhythm and their culture." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Mini-grid projects build new institutions islanders must learn to trust; we upgrade the store they already trust, sell power in the tingi increments they already buy in, and encode bayanihan priority - culture as the moat." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a franchise-style social enterprise co-owned with store operators, electric cooperatives, and NGO co-investors." },
+    { q: "In one sentence, describe your business innovation", a: "The sari-sari store reinvented as a village power plant, selling electricity the way it sells shampoo - one affordable sachet at a time." }
+  ]
 },
 
 /* ================= 홍수 (7) — 출처 검증 전 (PDF 원안) ================= */
@@ -337,7 +584,20 @@ window.IDEAS = [
     { label: "Google Blog — Flood Hub 확장 (80→100개국, 4.6억→7억 명, 7일=기존 5일 정확도)", url: "https://blog.google/innovation-and-ai/products/expanding-flood-forecasting-coverage-helping-partners/", verified: true },
     { label: "Google Blog — 홍수 15억 명 노출·연 500억 달러 피해", url: "https://blog.google/innovation-and-ai/products/google-ai-global-flood-forecasting/", verified: true }
   ],
-  related: ["F3", "F6"]
+  related: ["F3", "F6"],
+  diagram: { steps: ["문제: 홍수 예보가 있어도 주민이 무엇을 해야 할지 모름", "핵심: 지역 재료 센서 + Google Flood Hub 등 공개 AI 예측을 결합해 구체적 행동 알림 생성", "결과: '내일 비가 온다'가 아닌 '오늘 저녁 물통을 밖에 두라'는 실행 지시"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] Google can now predict floods seven days ahead for free - yet villagers still lose everything. The broken last mile, not the forecast, became our obsession." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Flood-delta villages, and the NGOs and local governments that serve them." },
+    { q: "What customer need or want are you trying to meet?", a: "Residents need to know what to do tonight - not tomorrow's rain probability - in words tied to their own house and belongings." },
+    { q: "What is your innovative idea?", a: "Local-material sensors plus free public AI forecasts translated into stage-coded household actions: 'yellow flag - move documents and medicine up now'." },
+    { q: "How would your idea work?", a: "Flood Hub's 7-day river forecasts and local sensor readings feed simple stage rules; alerts go out over channels that exist - including feature-phone SMS." },
+    { q: "How does your idea meet the challenge?", a: "Last-mile climate early warning is climate adaptation where it currently fails (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "The customer's need is actionability, and that is the product: compliance-rate-measured behavior change riding on forecasting that costs us nothing to produce." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Forecast providers stop at probability maps; we own the last mile - translating free public forecasts into house-level actions over channels villagers actually have, including feature phones." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a social enterprise selling alert subscriptions to villages, NGOs, and local governments (forecast data itself is free)." },
+    { q: "In one sentence, describe your business innovation", a: "A last-mile translator that turns free 7-day AI flood forecasts into tonight's household actions, delivered even to feature phones." }
+  ]
 },
 {
   id: "F2", category: "flood",
@@ -353,7 +613,20 @@ window.IDEAS = [
     { label: "MDPI Biosensors 2025 — Wearable Sensors for Plants: Status and Prospects", url: "https://www.mdpi.com/2079-6374/15/1/53", verified: true },
     { label: "Advanced Science 2025 — Wearable Standalone Sensing Systems for Smart Agriculture", url: "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202414748", verified: true }
   ],
-  related: ["F1", "D4"]
+  related: ["F1", "D4"],
+  diagram: { steps: ["문제: 사람이 눈치채기 전에 식물은 이미 물 스트레스를 겪음", "핵심: 연꽃·벼에 웨어러블 센서를 붙여 생리 신호를 AI로 조기 해석", "결과: 염분·가뭄·과습 스트레스를 사람보다 먼저 감지"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] The idea that a lotus plant feels the salt and the drought before any farmer can see it - and could be wired to say so - felt like science fiction that is almost true." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Delta farmers and their cooperatives; secondary customers are agricultural insurers and local governments buying the data." },
+    { q: "What customer need or want are you trying to meet?", a: "Farmers need earlier warning of water, salt, and flood stress than their own eyes can give them." },
+    { q: "What is your innovative idea?", a: "Wearable sensors on local plants - lotus, rice, water hyacinth - whose physiological signals AI reads as early danger signs." },
+    { q: "How would your idea work?", a: "Thin flexible sensors track transpiration and surface signals; models flag deviations before visible damage; honest scope: competition build is a model plus app simulation, as the field is research-stage." },
+    { q: "How does your idea meet the challenge?", a: "Early stress detection for climate-hit agriculture (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "The value is lead time - days between the plant's whisper and visible damage are days to change water intake or protect a harvest." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Weather stations measure the air; our sensors ask the crop itself - plants integrate water, salt, and heat stress before any external instrument shows it - presented honestly as a research-stage concept." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a university-partnered agri-tech startup funded by R&D grants at this research stage." },
+    { q: "In one sentence, describe your business innovation", a: "Wearable sensors that let lotus and rice plants report their own salt and water stress days before any farmer could see it." }
+  ]
 },
 {
   id: "F3", category: "flood",
@@ -369,7 +642,20 @@ window.IDEAS = [
     { label: "UN OCHA — Bangladesh Eastern Flash Floods 2024 SitRep 02 (580만 명, 502,501명 대피)", url: "https://www.unocha.org/publications/report/bangladesh/bangladesh-eastern-flash-floods-2024-situation-report-no-02-30-august-2024", verified: true },
     { label: "WHO Bangladesh — 2024 홍수 대응 (5.8M 영향, 3,403개 대피소)", url: "https://www.who.int/bangladesh/news/detail/04-11-2024-rising-waters--rising-challenges-who-s-response-to-severe-flooding-in-bangladesh", verified: true }
   ],
-  related: ["F1", "F5"]
+  related: ["F1", "F5"],
+  diagram: { steps: ["문제: 마을 주민의 과거 홍수 기억이 체계적으로 기록되지 않음", "핵심: 벽에 과거 최고 수위를 새기고 AR로 미래 침수 예상 높이를 겹쳐 표시", "결과: 추상적 확률 대신 구체적 시각 기준점으로 대비 행동 유도"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] Elders remember exactly how high the water came; children do not. Painting that memory on the village wall - then adding the future in AR - felt like a duty as much as an idea." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Flood-prone communities, funded by NGO and local-government disaster-education budgets." },
+    { q: "What customer need or want are you trying to meet?", a: "Residents need a concrete, always-visible reference for how bad it gets and where to go - not abstract probabilities." },
+    { q: "What is your innovative idea?", a: "Village walls painted with past peak levels, escape directions, and safe zones, overlaid in smartphone AR with projected future flood heights." },
+    { q: "How would your idea work?", a: "Local artists and residents paint verified historic marks; the AR layer draws projected heights from public flood data; one content build replicates across villages." },
+    { q: "How does your idea meet the challenge?", a: "Community flood-risk communication is climate adaptation at the culture level (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "A line on a wall you pass daily changes preparation behavior the way a percentage never does - measured in evacuation time against control villages; the 2024 floods that affected 5.8 million people are the memory we keep visible." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Hazard maps live in offices; our line lives on the village wall where everyone passes daily - and AR adds the future to the past at near-zero marginal cost per village." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: NGO or Charity - a nonprofit producing the murals and AR content with local artists, funded by disaster-education budgets and grants." },
+    { q: "In one sentence, describe your business innovation", a: "Village walls that remember every flood - painted peak lines with an AR overlay showing how high the next one may reach." }
+  ]
 },
 {
   id: "F4", category: "flood",
@@ -386,7 +672,20 @@ window.IDEAS = [
     { label: "FAO — Rice Post-harvest Operations (수확 24~26% → 14% 건조)", url: "https://www.fao.org/fileadmin/user_upload/inpho/docs/Post_Harvest_Compendium_-_RICE.pdf", verified: true },
     { label: "FAO — Post-harvest losses (개도국 곡물 손실 10~15%, 최대 50%)", url: "https://www.fao.org/4/t0522e/t0522e04.htm", verified: true }
   ],
-  related: ["F5", "P2"]
+  related: ["F5", "P2"],
+  diagram: { steps: ["문제: 홍수·고습 기후에서 쌀·씨앗이 위험 습도에 도달해도 알기 어려움", "핵심: 왕겨·쌀 포대에 붙이는 저가 태그가 위험 습도 도달 시 색·NFC로 알림", "결과: 저장 손실을 줄여 식량 손실 예방"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] Losing rice after the harvest - after all that work - struck us as the cruelest kind of loss, and the fix is a sticker that costs almost nothing." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Rice farmers, mills, and cooperatives in humid flood-prone deltas." },
+    { q: "What customer need or want are you trying to meet?", a: "They need to know the moment stored grain crosses into dangerous humidity - before mold, not after." },
+    { q: "What is your innovative idea?", a: "A cheap humidity tag for sacks and bins that changes color - or pings via NFC - at the danger threshold (paddy stores safely near 14% moisture)." },
+    { q: "How would your idea work?", a: "Deliquescent indicator dyes shift color with humidity; an optional NFC layer logs history; local-fiber packaging keeps it from looking like a mere lab strip." },
+    { q: "How does your idea meet the challenge?", a: "Cutting post-harvest loss is food security under climate stress; core SDG 2, mapped nearest to CBT Tech Climate Solutions (SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "With storage losses running 10-15% in developing countries (FAO), a tag costing cents that saves one sack has already paid for a season of tags." },
+    { q: "What makes your idea different or better than existing solutions?", a: "A hygrometer measures a room; our tag rides each sack - per-unit, dirt-cheap, visible at a glance, with NFC history for mills - so the warning sits exactly where the loss happens." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a small manufacturer selling tags per sack and in bulk through mills and cooperatives." },
+    { q: "In one sentence, describe your business innovation", a: "A cents-per-sack humidity tag that warns the farmer the moment stored rice crosses into mold territory." }
+  ]
 },
 {
   id: "F5", category: "flood",
@@ -403,7 +702,20 @@ window.IDEAS = [
     { label: "Testbook — 2024 FAO 기준 방글라데시 생산 역전 주장 (58%)", url: "https://testbook.com/static-gk/largest-producer-of-jute-in-the-world", verified: true },
     { label: "AMATSUNAWA — 방글라 수출 1위·인도 생산 최대 (FY2024/25 수출 통계)", url: "https://www.amatsunawa.com/Jute-Know-How/Jute-Export-Statistic/", verified: true }
   ],
-  related: ["F4", "F7"]
+  related: ["F4", "F7"],
+  diagram: { steps: ["문제: 홍수 시 강변·부유식 시설의 침수·붕괴를 즉시 알기 어려움", "핵심: 황마 로프에 전도성 코팅을 입혀 젖음·당김에 따라 저항이 변화", "결과: 강변·화장실·쌀 보관함 등 다용도 저가 침수 감지 센서"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] Bangladesh's own golden fiber, jute, is everywhere ropes are - we asked what happens if the rope itself could feel the flood coming." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Delta residents and local governments; distribution rides the replacement demand for rope already in use." },
+    { q: "What customer need or want are you trying to meet?", a: "They need early, cheap detection of rising water and failing floating structures - without imported electronics at every point." },
+    { q: "What is your innovative idea?", a: "Jute rope with a conductive coating whose resistance changes when wet, submerged, or strained - one rope serving riverbank alarms, floor-flood sensing, floating-garden strain, latrine tilt, and grain-bin humidity." },
+    { q: "How would your idea work?", a: "A change in resistance closes a simple alarm circuit; a student can demonstrate it with a multimeter; the same principle scales from a house wall to a riverbank line." },
+    { q: "How does your idea meet the challenge?", a: "Low-cost distributed flood sensing from a national fiber (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Because it is the rope they already buy - from the crop their country leads the world in exporting - the sensor arrives inside an existing habit, not a new gadget." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Imported sensors cost dollars per point; a conductive coating on the national fiber costs cents and arrives inside a product villagers already buy - the sensor hides in the rope." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a manufacturer partnering with the jute industry, riding existing rope replacement demand." },
+    { q: "In one sentence, describe your business innovation", a: "Bangladesh's national fiber turned sensor: jute rope that feels flooding, strain, and damp through its own electrical resistance." }
+  ]
 },
 {
   id: "F6", category: "flood",
@@ -420,7 +732,20 @@ window.IDEAS = [
     { label: "ACS Omega — 스마트폰 앱 통합 μPAD로 pH·금속·아질산염 동시 검출", url: "https://pubmed.ncbi.nlm.nih.gov/36506192/", verified: true },
     { label: "ACS Sensors — μPAD 그람음성균·아질산염 동시 모니터링(세균은 별도 기법)", url: "https://pubs.acs.org/doi/10.1021/acssensors.3c01769", verified: true }
   ],
-  related: ["F1", "F7"]
+  related: ["F1", "F7"],
+  diagram: { steps: ["문제: 홍수 후·가뭄 시 물의 안전성을 즉석에서 판단하기 어려움", "핵심: 종이칩에 물 한 방울을 떨어뜨리면 여러 구역이 항목별로 다른 색으로 반응", "결과: pH·염도·오염 위험을 한 장으로 확인하는 '물 위험 여권'"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] One drop of water, one paper card, one photo - and a family knows what that water can be used for. The simplicity is the whole appeal." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "NGOs assembling relief kits for flood and drought responses; end users are affected households." },
+    { q: "What customer need or want are you trying to meet?", a: "After a flood - or at a doubtful well - people need an instant, cheap read on what the water is safe for." },
+    { q: "What is your innovative idea?", a: "A paper microfluidic 'water risk passport': one drop wicks into zones that change color for pH, salinity, nitrate, and more, readable by a smartphone camera." },
+    { q: "How would your idea work?", a: "Capillary action moves the sample through printed channels to reagent zones; published devices already measure pH and nitrite this way with a phone app; bacteria are flagged only as 'needs further disinfection'." },
+    { q: "How does your idea meet the challenge?", a: "Its core is SDG 6 (clean water); nearest challenge mapping is MetLife Good Health & Well-Being (SDG 3, waterborne disease). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "It answers the exact question the customer asks - 'can I use this water, and for what?' - at a unit cost low enough for mass relief distribution, in both flood and drought." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Lab tests take days and money; strips test one thing; our card reads multiple parameters from one drop with a phone camera - and answers the real question: what can this water be used for." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - a social-enterprise manufacturer selling in bulk to relief NGOs, supported by public-health grants." },
+    { q: "In one sentence, describe your business innovation", a: "A paper 'water risk passport' - one drop, one card, one phone photo - telling a family what that water can safely be used for." }
+  ]
 },
 {
   id: "F7", category: "flood",
@@ -436,7 +761,20 @@ window.IDEAS = [
     { label: "WHO — Water, sanitation and hygiene (WASH) (연 100만+ 설사병 사망)", url: "https://www.who.int/health-topics/water-sanitation-and-hygiene-wash", verified: true },
     { label: "CDC — About Global WASH (콜레라·장티푸스, 5세 미만 사망 요인)", url: "https://www.cdc.gov/global-water-sanitation-hygiene/about/index.html", verified: true }
   ],
-  related: ["F5", "F6"]
+  related: ["F5", "F6"],
+  diagram: { steps: ["문제: 홍수 시 화장실·하수가 잠기며 오염수가 생활공간에 섞임", "핵심: 부유식 화장실에 수위 센서·위치 알림을 붙여 안전 여부를 실시간 공유", "결과: 가장 가까운 안전 화장실 안내로 수인성 질병 위험 감소"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] The most dangerous thing in a flood is often not the water outside but the sewage inside it - a problem everyone experiences and no one wants to discuss. We decided to discuss it." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "NGOs, local governments, and international WASH programs; end users are flood-displaced residents, especially women and children." },
+    { q: "What customer need or want are you trying to meet?", a: "During floods people need to find a functioning, safe latrine - and to know when one has become a contamination source." },
+    { q: "What is your innovative idea?", a: "Floating emergency latrines fitted with water-level sensors, location beacons, and availability status, guiding residents to the nearest safe facility." },
+    { q: "How would your idea work?", a: "Sensors flag submersion, tilt, and displacement; status flows to a simple map and local signage; the offering is the sensing-and-information layer on existing latrine hardware." },
+    { q: "How does your idea meet the challenge?", a: "Its core is SDG 6 (sanitation); nearest challenge mapping is MetLife Good Health & Well-Being (SDG 3). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Poor WASH is linked by WHO to over a million diarrheal deaths a year; in a flood, pointing a family to the one safe latrine nearby is the most direct health service there is." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Relief programs deploy latrines; nobody tracks which ones remain safe as water rises - our sensing-and-map layer is the missing information half of flood sanitation." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: NGO or Charity - implemented inside NGO/agency WASH programs, with the venture providing the sensing-and-information layer under contract." },
+    { q: "In one sentence, describe your business innovation", a: "Floating latrines that report their own safety, guiding flood-displaced families to the nearest facility that has not become a contamination source." }
+  ]
 },
 
 /* ================= 가뭄 (4) — 출처 검증 전 (PDF 원안) ================= */
@@ -455,7 +793,20 @@ window.IDEAS = [
     { label: "Global Challenges 2024 — 바이오차 도핑 하이드로젤 종자 발아", url: "https://onlinelibrary.wiley.com/doi/10.1002/gch2.202300254", verified: true },
     { label: "ScienceDirect 2025 — 건조지 농업 하이드로젤 토양 수분 리뷰 (침투 +25~40%)", url: "https://www.sciencedirect.com/science/article/pii/S2949911925000309", verified: true }
   ],
-  related: ["D3"]
+  related: ["D3"],
+  diagram: { steps: ["문제: 가뭄 지역에서 씨앗을 심어도 비가 부족하면 발아 전에 말라 죽음", "핵심: 생분해성 하이드로젤+점토 캡슐이 일정 수분 이상일 때만 팽윤해 씨앗을 깨움", "결과: 발아율·수량 개선, 저비용 대량·항공 파종에 유리"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] A seed that waits for the rain it needs - sleeping through false starts - felt like giving farmers back the judgment the climate took away." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Dryland farmers and the reforestation programs and NGOs doing mass or aerial seeding." },
+    { q: "What customer need or want are you trying to meet?", a: "They need seeds to survive failed rains and germinate only when moisture is truly sufficient - protecting scarce seed stock and the season." },
+    { q: "What is your innovative idea?", a: "A biodegradable hydrogel-and-clay capsule that swells and wakes the seed only past a rainfall threshold." },
+    { q: "How would your idea work?", a: "The hydrogel absorbs many times its weight in water but is tuned to swell only at sustained moisture; clay and biochar shells add local material and cost control; presented honestly as a concept prototype." },
+    { q: "How does your idea meet the challenge?", a: "Climate-resilient germination for drylands; core SDG 2, nearest challenge mapping CBT Tech Climate Solutions (SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Published drought trials of hydrogel-coated rice report +28% germination and up to +140% yield - exactly the difference between a wasted season and a harvest." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Plain seed balls sow and hope; our capsule adds a moisture threshold - the seed sleeps through false rains - and seed coating beats field-wide soil amendments on cost per hectare." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - an agricultural social enterprise selling seed-capsule consumables and serving reforestation contracts." },
+    { q: "In one sentence, describe your business innovation", a: "A seed capsule that sleeps through false rains and wakes only when the soil holds enough water to finish what germination starts." }
+  ]
 },
 {
   id: "D2", category: "drought",
@@ -472,7 +823,20 @@ window.IDEAS = [
     { label: "Applied Energy 2025 — 복사냉각 대기수확 리뷰 (단순형 이슬 수율 0.3~0.6 L/m²/day)", url: "https://sciencedirect.com/science/article/pii/S0306261924019597?via=ihub%3D", verified: true },
     { label: "NUS Colloquium 2024 (Beysens) — 복사냉각 1m²≈100W, 이론상 3.5L/m²/day", url: "https://www.physics.nus.edu.sg/colloquium-2024-oct-daniel-beysens", verified: true }
   ],
-  related: ["H11", "H5"]
+  related: ["H11", "H5"],
+  diagram: { steps: ["문제: 오지 사막 지역은 물 배달 비용이 비싸고 수원이 부족함", "핵심: 복사냉각 필름 지붕이 밤하늘로 열을 방출해 이슬을 응결·수집", "결과: 전력 없이 보조 물 수확, 식수 전량 해결이 아닌 보완 수단으로 포지셔닝"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] A roof that makes water out of night air, with no power and no moving parts, sounded impossible - the physics says it merely needs honesty about how much." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Remote dryland households and small farms, reached through appropriate-technology NGOs." },
+    { q: "What customer need or want are you trying to meet?", a: "They need supplementary water where every delivered liter is expensive - without power, maintenance, or consumables." },
+    { q: "What is your innovative idea?", a: "Radiative-cooling film on roofs and tents that sheds heat to the night sky, condensing dew into gutters for household use or micro-farms." },
+    { q: "How would your idea work?", a: "Clear-sky radiation drops the surface below the dew point; droplets form and drain to storage; we state plainly that simple condensers yield ~0.3-0.6 L/m2/day - the cited 3.65 L is a sorbent-hybrid lab ceiling." },
+    { q: "How does your idea meet the challenge?", a: "Core SDG 6 (water); nearest challenge mapping CBT Tech Climate Solutions (SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Priced against delivered water per liter in remote areas, a zero-operating-cost supplementary source on existing roof area meets the need exactly as framed - supplement, not replacement." },
+    { q: "What makes your idea different or better than existing solutions?", a: "AWG machines need power and money; fog nets need fog; our film needs only a clear night sky and existing roof area - honestly sold as a supplement (0.3-0.6 L/m2/day for simple condensers)." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - an appropriate-technology social enterprise distributing through NGOs in target drylands." },
+    { q: "In one sentence, describe your business innovation", a: "Roof film that harvests dew from the night sky - a zero-power supplementary water source honestly sized in liters, not promises." }
+  ]
 },
 {
   id: "D3", category: "drought",
@@ -489,7 +853,20 @@ window.IDEAS = [
     { label: "ScienceDirect 2025 — 인도 다양 토양 스마트폰 RGB 수분 추정", url: "https://www.sciencedirect.com/science/article/abs/pii/S2352938525002083", verified: true },
     { label: "PLOS One 2026 (서울대) — 이미지 기반 토양 수분 관리 (DenseNet121 R²=97.3%)", url: "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0341904", verified: true }
   ],
-  related: ["D1", "F6"]
+  related: ["D1", "F6"],
+  diagram: { steps: ["문제: 단순 흙 사진 분석은 신선해 보이지 않고 정확도도 제한적", "핵심: 점토 균열+하이드로젤 점+바이오차+종이 스트립+QR을 결합한 복합 센서 타일", "결과: AI가 균열·색·날씨·위치를 종합해 파종·관개 시점을 알림"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] A cracked clay tile is the soil writing its own moisture diary - we just taught a phone to read the handwriting." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Dryland farmers, reached through extension services and NGOs." },
+    { q: "What customer need or want are you trying to meet?", a: "They need planting and irrigation timing grounded in their own field's data, at near-zero hardware cost." },
+    { q: "What is your innovative idea?", a: "A composite sensor tile - gridded cracks, hydrogel dots, biochar contrast, paper test strips, a QR/NFC log - read by an AI app that issues planting and irrigation alerts." },
+    { q: "How would your idea work?", a: "Drying cracks record moisture history, dots and strips add water and chemistry signals, and the app fuses image, weather, and location; smartphone soil-moisture models have reached R2 = 97.3% in studies." },
+    { q: "How does your idea meet the challenge?", a: "Drought decision support from local earth (CBT Tech Climate Solutions, SDG 13). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "The farmer's need is a timely, trustworthy signal from their own plot - the tile costs nearly nothing, and the subscription is the advice, not the hardware." },
+    { q: "What makes your idea different or better than existing solutions?", a: "'AI reads a soil photo' is copyable in a weekend; a composite tile - cracks, hydrogel, biochar, strips, QR log - makes the sensing physical, calibratable, and demonstrably ours." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - an agri-tech social enterprise earning on app subscriptions and drought-map data over near-free hardware." },
+    { q: "In one sentence, describe your business innovation", a: "A clay tile that writes the soil's moisture diary in cracks and colors, read by a phone AI that tells the farmer when to plant." }
+  ]
 },
 {
   id: "D4", category: "drought",
@@ -506,7 +883,20 @@ window.IDEAS = [
     { label: "Springer — 메콩 염수 침투 위협 (2020년 10/13개성)", url: "https://link.springer.com/chapter/10.1007/978-3-031-07500-1_1", verified: true },
     { label: "HAPRI — 2016·2020 메콩 가뭄·염수 침투 (60km, 78km, 5.7만ha, 4만가구)", url: "https://www.hapri.org/post/drought-and-salinity-intrusion-in-the-mekong-delta-what-are-the-fundamental-solutions", verified: true }
   ],
-  related: ["F2", "F1"]
+  related: ["F2", "F1"],
+  diagram: { steps: ["문제: 건기에 바닷물이 강을 타고 올라와 농업용수가 짜지는 것을 눈으로 알기 어려움", "핵심: 연꽃밭 주변 저가 염도 센서 + 연꽃 스트레스 이미지 AI 분석", "결과: 작물에 위험한 염도 도달을 사전에 알려 파종·취수 시점 판단 지원"] },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] The disaster here is invisible: the river looks the same the day it turns salty. Making the lotus fields themselves sound the alarm felt right for the Mekong." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Mekong Delta farmers and cooperatives, linked to provincial salinity-forecast systems." },
+    { q: "What customer need or want are you trying to meet?", a: "Farmers need advance warning - before intake water damages crops - timed to planting and pumping decisions." },
+    { q: "What is your innovative idea?", a: "Low-cost conductivity sensors around lotus ponds plus AI reading of lotus stress signs, alerting farmers before salinity reaches crop-damaging levels." },
+    { q: "How would your idea work?", a: "EC probes track salinity cheaply; image models watch the lotus - a salinity-sensitive local plant - as a biological cross-check; alerts map to crop-specific thresholds." },
+    { q: "How does your idea meet the challenge?", a: "Early warning for drought-driven salinity intrusion (CBT Tech Climate Solutions, SDG 13); in 2019-20 salinity reached 125 km inland across 10 of 13 provinces. (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "Lead time converts directly into saved crops and safe water decisions - and the alarm infrastructure is the landscape the farmers already own." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Government salinity forecasts cover rivers at province scale; our lotus-pond sensors read the farmer's own water at field scale, with the plant itself as a biological cross-check." },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: For-profit Business - an agri-tech service company selling farmer/cooperative subscriptions linked to provincial forecast systems." },
+    { q: "In one sentence, describe your business innovation", a: "Lotus ponds turned salinity alarms: cheap conductivity probes plus the plant's own stress signals warn Mekong farmers before the river turns salty." }
+  ]
 },
 {
   id: "F8", category: "flood",
@@ -523,7 +913,23 @@ window.IDEAS = [
     { label: "Wikipedia — 2022 Nigeria floods (603~612명 사망, 140만 명 대피)", url: "https://en.wikipedia.org/wiki/2022_Nigeria_floods", verified: true },
     { label: "ReliefWeb — Nigeria Floods Aug 2024 상황보고 (지역별 상세, 이후 확대 수치 포함)", url: "https://reliefweb.int/disaster/fl-2024-000159-nga", verified: true }
   ],
-  related: ["F1", "F5"]
+  related: ["F1", "F5"],
+  diagram: {
+    steps: ["기존: 전 구간 동일 강도 제방 → 무작위 붕괴 → 마을 직격", "핵심: 저다짐 사질토 구간을 설계 최고수위 80%에서 먼저 붕괴시켜 휴경지로 유도", "결과: 순환 배정+보상 계약으로 피해와 책임을 마을이 나눠 가짐"],
+    svg: "<svg viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"320\" height=\"190\" style=\"fill:#f5f0e6\"></rect><rect x=\"0\" y=\"90\" width=\"60\" height=\"60\" style=\"fill:#2b7bb9\"></rect><text x=\"4\" y=\"85\" style=\"font-size:9px;fill:#22303d\">강(범람수)</text><polyline points=\"60,150 60,90 130,90 130,110 170,110 170,90 260,90 260,150\" style=\"fill:none;stroke:#22303d;stroke-width:4\"></polyline><rect x=\"130\" y=\"105\" width=\"40\" height=\"8\" style=\"fill:#c08f5c;opacity:0.9\"></rect><text x=\"108\" y=\"100\" style=\"font-size:9px;fill:#22303d\">붕괴 유도부(약화)</text><path d=\"M150,112 L155,132 L170,145\" style=\"fill:none;stroke:#2b7bb9;stroke-width:3\"></path><polygon points=\"170,145 163,140 175,141\" style=\"fill:#2b7bb9\"></polygon><rect x=\"150\" y=\"145\" width=\"70\" height=\"8\" style=\"fill:#2e7d5b\"></rect><text x=\"148\" y=\"163\" style=\"font-size:9px;fill:#22303d\">휴경 농지(유도)</text><rect x=\"270\" y=\"130\" width=\"20\" height=\"20\" style=\"fill:#22303d\"></rect><polygon points=\"270,130 280,118 290,130\" style=\"fill:#22303d\"></polygon><rect x=\"295\" y=\"135\" width=\"18\" height=\"15\" style=\"fill:#22303d\"></rect><polygon points=\"295,135 304,124 313,135\" style=\"fill:#22303d\"></polygon><text x=\"265\" y=\"115\" style=\"font-size:9px;fill:#22303d\">마을(보호구역)</text><line x1=\"0\" y1=\"150\" x2=\"320\" y2=\"150\" style=\"stroke:#22303d;stroke-width:2\"></line></svg>"
+  },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] Everyone says a levee must never fail; the villages that build their own levees know they always eventually do. Choosing where - together, on paper - is the inversion that captured us." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Niger River lowland villages (users: chief councils and households); paying customers are NGO WASH/DRR programs and Nigerian state adaptation funds." },
+    { q: "What customer need or want are you trying to meet?", a: "Villagers need floods to strike where the village has agreed to absorb them - farmland on rotation, with compensation - instead of randomly through someone's home." },
+    { q: "What is your innovative idea?", a: "A fuse-levee-plus-contract package: one deliberately weaker section (low-compaction sandy soil, assumed ~80% of design level) routes overflow to rotating fallow fields, governed by a written rotation-compensation-dispute contract." },
+    { q: "How would your idea work?", a: "Lower compaction lowers the section's critical shear stress so it yields first; a gentle spillway spreads the flow into storage rather than erosion; the contract - rosters, labor-based compensation, dispute rules - makes the shared loss legitimate. All performance figures remain assumptions pending a real build." },
+    { q: "How does your idea meet the challenge?", a: "Measurable climate-adaptive infrastructure for flood-battered communities (CBT Tech Climate Solutions, SDG 13); Nigeria's 2024 floods killed 170+ and displaced 200,000+. (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "The need is predictability and fairness as much as protection: homes are spared by design, and the field that floods is compensated by agreement - replacing random ruin and recurring conflict with a plan." },
+    { q: "What makes your idea different or better than existing solutions?", a: "Fuse levees exist in rich-country engineering with concrete and certification; our version runs on customary law, chief councils, and a written rotation-compensation contract - governance, not concrete, is the innovation. (All performance figures remain assumptions pending a real build.)" },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: NGO or Charity - delivered through NGO disaster-risk-reduction programs and state adaptation funds; villages pay in labor and land rotation, not cash. (All performance figures remain assumptions pending a real build.)" },
+    { q: "In one sentence, describe your business innovation", a: "A levee designed to fail on purpose - at a chosen point, into rotating fallow fields - governed by a village contract that shares the loss fairly." }
+  ]
 },
 {
   id: "D5", category: "drought",
@@ -541,6 +947,22 @@ window.IDEAS = [
     { label: "PMC — 대기수확용 흡습제 연구 동향 (CaCl₂ 등 흡습염 원리)", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10856168/", verified: true },
     { label: "Nature Comm. Chemistry — CaCl₂ 복합재의 대기 중 수분 흡수·태양열 방출 사이클", url: "https://www.nature.com/articles/s42004-018-0028-9", verified: true }
   ],
-  related: ["H11", "D2", "D4"]
+  related: ["H11", "D2", "D4"],
+  diagram: {
+    steps: ["낮: CaCl₂ 흡습염이 태양열로 데워지며 저장했던 수분을 수증기로 방출", "밤: 복사냉각 패널이 대기보다 낮은 표면온도를 유지해 그 수증기를 응결", "결과: 응결된 물방울이 저장 물통으로 모여 전기 없이 물을 확보"],
+    svg: "<svg viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"320\" height=\"190\" style=\"fill:#f5f0e6\"></rect><rect x=\"40\" y=\"20\" width=\"20\" height=\"150\" style=\"fill:#22303d\"></rect><rect x=\"60\" y=\"40\" width=\"100\" height=\"25\" style=\"fill:#c08f5c\"></rect><text x=\"65\" y=\"57\" style=\"font-size:9;fill:#22303d\">CaCl₂ 흡습염 트레이</text><path d=\"M110,40 L110,20\" style=\"stroke:#c08f5c;stroke-width:2\"></path><text x=\"90\" y=\"18\" style=\"font-size:9;fill:#c08f5c\">낮:태양열 수분방출</text><path d=\"M115,38 Q130,20 145,38\" style=\"stroke:#c08f5c;stroke-width:1.5;fill:none\"></path><rect x=\"180\" y=\"20\" width=\"100\" height=\"15\" style=\"fill:#2b7bb9\"></rect><text x=\"185\" y=\"18\" style=\"font-size:9;fill:#2b7bb9\">복사냉각 패널</text><path d=\"M230,20 L230,5\" style=\"stroke:#2b7bb9;stroke-width:1.5\"></path><text x=\"200\" y=\"10\" style=\"font-size:9;fill:#2b7bb9\">밤:장파방출</text><path d=\"M150,45 Q200,60 220,35\" style=\"stroke:#22303d;stroke-width:1.5;fill:none;stroke-dasharray:2,2\"></path><path d=\"M230,35 L230,90\" style=\"stroke:#2b7bb9;stroke-width:2\"></path><ellipse cx=\"230\" cy=\"100\" rx=\"18\" ry=\"10\" style=\"fill:#2b7bb9\"></ellipse><text x=\"200\" y=\"120\" style=\"font-size:9;fill:#2b7bb9\">응결된 물방울</text><rect x=\"200\" y=\"110\" width=\"60\" height=\"60\" style=\"fill:none;stroke:#22303d;stroke-width:1.5\"></rect><path d=\"M230,110 L230,150\" style=\"stroke:#2b7bb9;stroke-width:1.5\"></path><rect x=\"215\" y=\"150\" width=\"30\" height=\"15\" style=\"fill:#2b7bb9;opacity:0.5\"></rect><text x=\"210\" y=\"172\" style=\"font-size:9;fill:#22303d\">저장 물통</text></svg>"
+  },
+  nfte_qa: [
+    { q: "What interests you most about this challenge?", a: "[Draft angle - the student must rewrite this in their own voice] The sentence that started this: the herds leave, but grandmother stays. Designing for the person who cannot join the migration reframed everything." },
+    { q: "Who are you designing a solution for? Who's the \"customer\" for your idea?", a: "Households of mobility-limited elders and disabled members in pastoral drylands (Turkana, Namibia), with their caregivers - mostly women; distribution runs through NGOs like World Vision Kenya and elder networks." },
+    { q: "What customer need or want are you trying to meet?", a: "Those left behind need a minimum daily water supply at the house; caregivers need hours back from the water walk." },
+    { q: "What is your innovative idea?", a: "A wall-mounted personal water device: a CaCl2 hygroscopic-salt tray absorbs night moisture, daytime solar heat drives it out as vapor, and a radiative-cooling painted panel condenses it into a storage bottle - no electricity, works in low humidity where fog nets cannot." },
+    { q: "How would your idea work?", a: "CaCl2's deliquescence captures moisture even in dry air; the paint-grade radiative panel stays below air temperature at night to condense the released vapor. Output (~0.75 L/day per unit, ~30% of a 2.5 L minimum) is an assumption pending a measured prototype." },
+    { q: "How does your idea meet the challenge?", a: "Minimum safe water for the least mobile is health and well-being at its most basic (MetLife Good Health & Well-Being, SDG 3). (Challenge mapping based on the 2025-26 list; the 2026-27 challenges are not yet published.)" },
+    { q: "How does your idea meet the customer need or want?", a: "One unit covers a meaningful share of one person's minimum, three units approach it fully (assumed), and every liter made at the wall is walking the caregiver does not do - the design metric is her hours, not just liters." },
+    { q: "What makes your idea different or better than existing solutions?", a: "AWGs need power and thousands of dollars; fog nets need terrain and community structures; we need only a salt tray, painted panel, and wall - and we design around caregiver hours saved, a metric no existing water product uses. (Output and cost figures remain assumptions pending a prototype.)" },
+    { q: "How would your idea be financed? (select) What type of business could implement it?", a: "Recommended selection: NGO or Charity - distribution and funding run through NGO bulk purchase and elder-network matching rather than consumer sales. (Output and cost figures remain assumptions pending a prototype.)" },
+    { q: "In one sentence, describe your business innovation", a: "A wall-mounted salt-and-sky water maker for those who cannot join the drought migration - measured in caregiver hours saved, not just liters." }
+  ]
 },
 ];
